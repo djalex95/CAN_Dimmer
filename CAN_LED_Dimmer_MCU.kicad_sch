@@ -2662,54 +2662,13 @@
 				)
 			)
 			(symbol "EEPROM_M24C04-FMC6TG_1_0"
-				(polyline
-					(pts
-						(xy -7.62 7.62) (xy 7.62 7.62)
-					)
-					(stroke
+				(rectangle (start -7.62 7.62) (end 7.62 -7.62) (stroke
 						(width 0.1524)
 						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -7.62) (xy -7.62 7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 7.62) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy -7.62 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+					) (fill (type background)))
+				
+				
+				
 				(pin bidirectional line
 					(at -12.7 5.08 0)
 					(length 5.08)
@@ -3110,54 +3069,13 @@
 				)
 			)
 			(symbol "IC_STM32G0B1CCT6_1_0"
-				(polyline
-					(pts
-						(xy -17.78 22.86) (xy -17.78 -25.4)
-					)
-					(stroke
+				(rectangle (start -17.78 22.86) (end 15.24 -25.4) (stroke
 						(width 0.254)
 						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -17.78 22.86) (xy 15.24 22.86)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -17.78 -25.4) (xy 15.24 -25.4)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 22.86) (xy 15.24 -25.4)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+					) (fill (type background)))
+				
+				
+				
 				(pin bidirectional line
 					(at -22.86 12.7 0)
 					(length 5.08)
@@ -4705,54 +4623,13 @@
 				)
 			)
 			(symbol "TLT9251VLEXUMA1_1_0"
-				(polyline
-					(pts
-						(xy 5.08 -15.24) (xy 5.08 2.54)
-					)
-					(stroke
+				(rectangle (start 5.08 2.54) (end 25.4 -15.24) (stroke
 						(width 0.1524)
 						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -15.24) (xy 25.4 -15.24)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 2.54) (xy 25.4 -15.24)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+					) (fill (type background)))
+				
+				
+				
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
@@ -5164,30 +5041,11 @@
 				)
 			)
 			(symbol "WIRL-BTLE_2621011024000_1_0"
-				(polyline
-					(pts
-						(xy -17.78 22.86) (xy -17.78 -30.48)
-					)
-					(stroke
+				(rectangle (start -17.78 22.86) (end 17.78 -30.48) (stroke
 						(width 0.254)
 						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -17.78 -30.48) (xy 17.78 -30.48)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+					) (fill (type background)))
+				
 				(arc
 					(start 1.27 19.812)
 					(mid 2.1117 17.78)
@@ -5294,30 +5152,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 17.78 22.86) (xy -17.78 22.86)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -30.48) (xy 17.78 22.86)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+				
+				
 				(text "ANT"
 					(at -17.018 19.558 0)
 					(effects

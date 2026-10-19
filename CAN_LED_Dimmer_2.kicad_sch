@@ -3141,54 +3141,13 @@
 				)
 			)
 			(symbol "NCP730BMT330TBG_1_0"
-				(polyline
-					(pts
-						(xy 5.08 -12.7) (xy 5.08 2.54)
-					)
-					(stroke
+				(rectangle (start 5.08 2.54) (end 30.48 -12.7) (stroke
 						(width 0.1524)
 						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -12.7) (xy 30.48 -12.7)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 30.48 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 30.48 2.54) (xy 30.48 -12.7)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+					) (fill (type background)))
+				
+				
+				
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
@@ -4332,54 +4291,13 @@
 				)
 			)
 			(symbol "U_LM5166XDRCR_1_0"
-				(polyline
-					(pts
-						(xy -10.16 7.62) (xy -10.16 -15.24)
-					)
-					(stroke
+				(rectangle (start -10.16 7.62) (end 10.16 -15.24) (stroke
 						(width 0.254)
 						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 7.62) (xy 10.16 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -15.24) (xy -10.16 -15.24)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -15.24) (xy 10.16 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+					) (fill (type background)))
+				
+				
+				
 				(pin bidirectional line
 					(at 15.24 5.08 180)
 					(length 5.08)

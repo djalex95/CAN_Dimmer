@@ -1211,54 +1211,13 @@
 				)
 			)
 			(symbol "PWR_BTS70202EPAXUMA1_1_0"
-				(polyline
-					(pts
-						(xy -12.7 10.16) (xy 12.7 10.16)
-					)
-					(stroke
+				(rectangle (start -12.7 10.16) (end 12.7 -10.16) (stroke
 						(width 0.254)
 						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 -10.16) (xy -12.7 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 10.16) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy -12.7 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+					) (fill (type background)))
+				
+				
+				
 				(pin bidirectional line
 					(at 0 -15.24 90)
 					(length 5.08)
