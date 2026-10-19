@@ -1,0 +1,191 @@
+(footprint "SODFL4725X110N_SOD128_D2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SODFL, 4.70 mm span, 3.80 X 2.50 X 1.10 mm body\n\nSODFL package with 4.70 mm span with body size 3.80 X 2.50 X 1.10 mm")
+	(property "Reference" "D2"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0e2eaf3e-510b-42ab-b180-23a3d356e5f5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "D_PMEG4010EP"
+		(at 0 1.985 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a6d5af1-1780-43fc-af22-d531bc01a8f5")
+		(effects
+			(font
+				(size 1.176528 1.176528)
+				(thickness 0.093472)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9edc9d59-0055-4bae-8148-71c290671e72")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41ec2be5-4dc1-494b-8578-0e437a71237d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "Power Supply")
+	(sheetfile "CAN_LED_Dimmer_2.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.0196 -1.35)
+		(end -3.0196 1.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d4429c17-9f72-4365-b9f8-41e1426a49b9")
+	)
+	(fp_line
+		(start -3.0196 1.35)
+		(end 2 1.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2d0a1b50-d38d-4e0d-a7b2-ce5c4bc199c4")
+	)
+	(fp_line
+		(start 2 -1.35)
+		(end -3.0196 -1.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c550fd4f-f9b0-4ecd-a58a-7ce9909456e9")
+	)
+	(fp_line
+		(start -3.0196 1.349999)
+		(end 1.999999 1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7e44821-e244-4a9a-b026-05db2fe4f19a")
+	)
+	(fp_line
+		(start -3.019599 -1.35)
+		(end -3.0196 1.349999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "217aaa28-92bd-41eb-965f-3e5f88bcacb4")
+	)
+	(fp_line
+		(start -2 1.349999)
+		(end -1.999999 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6bc2e28e-70e1-4598-bda2-88a900e7777d")
+	)
+	(fp_line
+		(start -1.999999 -1.35)
+		(end 2 -1.349999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da7a3a90-8ce6-42d1-a5f6-672fbf17af69")
+	)
+	(fp_line
+		(start 1.999999 1.35)
+		(end -2 1.349999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "496b36f2-f85b-4276-9f22-5591290dcd98")
+	)
+	(fp_line
+		(start 2 -1.349999)
+		(end -3.019599 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ba7f543-c6fa-494f-bc21-4bd019a45912")
+	)
+	(fp_line
+		(start 2 -1.349999)
+		(end 1.999999 1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1b07516-a436-4f17-8a9e-c54c00424883")
+	)
+	(pad "A" smd rect
+		(at 1.7923 0)
+		(size 1.8265 1.9219)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "d561438b-5f4b-4ab7-8961-6ef493138e50")
+	)
+	(pad "C" smd rect
+		(at -1.7923 0)
+		(size 1.8265 1.9219)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "e96eed87-fba0-4b56-916e-8c9b8eef2c10")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/D_SOD-128.step"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,242 @@
+(footprint "SOT95P237X110-3N_D5"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.92 X 1.30 X 1.10 mm body\n\n3-pin SOT23 package with 0.95 mm pitch, 2.37 mm span with body size 2.92 X 1.30 X 1.10 mm")
+	(property "Reference" "D5"
+		(at 2 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "866895e6-0694-4d9f-b9c9-030f0ea8b44a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "D_BAV99"
+		(at 0 2.2013 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5497f7f-f0de-432f-a8d8-c7516206c32f")
+		(effects
+			(font
+				(size 1.176528 1.176528)
+				(thickness 0.093472)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31ebe316-2cfb-46da-a1fb-1a810ca1ebe7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9b6e3b9-0123-4ab3-a29c-f88d14223e16")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "MCU - Bluetooth - CAN")
+	(sheetfile "CAN_LED_Dimmer_MCU.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.7 -1.5663)
+		(end 0.7 -1.5663)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1dcea2a1-3f99-4aac-98b2-e4997eee084e")
+	)
+	(fp_line
+		(start -0.7 1.5663)
+		(end 0.7 1.5663)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "beed3ce4-0e80-4aaf-bbd6-ff1fd05329bd")
+	)
+	(fp_line
+		(start 0.7 -1.5663)
+		(end 0.7 -0.6139)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f8bf1b7-a7fa-43b5-a7ee-6fc0593aecd9")
+	)
+	(fp_line
+		(start 0.7 1.5663)
+		(end 0.7 0.6139)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "90a4c60f-811e-4059-bcd0-f2c23d287a4f")
+	)
+	(fp_circle
+		(center -1.342582 -1.813703)
+		(end -1.122582 -1.813703)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "fb57b5ae-5b73-4482-8d7c-35a8d85354d1")
+	)
+	(fp_line
+		(start -0.7 -1.5663)
+		(end 0.7 -1.5663)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "944eee29-dd34-406e-8758-1505677a0fb8")
+	)
+	(fp_line
+		(start -0.7 -1.52)
+		(end 0.7 -1.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd0cca49-695b-45f7-af01-6cdb5c985d3b")
+	)
+	(fp_line
+		(start -0.7 1.52)
+		(end -0.7 -1.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df436f0b-7909-41c0-a79c-8fae9a06fac3")
+	)
+	(fp_line
+		(start -0.7 1.5663)
+		(end 0.7 1.5663)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71351838-8f72-4885-82cd-671f5055c0da")
+	)
+	(fp_line
+		(start 0.7 -1.5663)
+		(end 0.7 -0.5563)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "386fc897-4ca8-415e-b56b-16a3d53504c0")
+	)
+	(fp_line
+		(start 0.7 -1.52)
+		(end 0.7 1.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a97db96-a484-41a9-b8d4-7830cd6c680a")
+	)
+	(fp_line
+		(start 0.7 1.52)
+		(end -0.7 1.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d546f33c-8c9f-42de-a25a-dd19fcc4d2e4")
+	)
+	(fp_line
+		(start 0.7 1.5663)
+		(end 0.7 0.5563)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c135bbd-c6b7-4bee-b712-12cbe9344bb6")
+	)
+	(fp_circle
+		(center -1.204 -1.7563)
+		(end -1.079 -1.7563)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "2b3b0ed8-13a4-49eb-a323-5fa3edbb2050")
+	)
+	(pad "1" smd rect
+		(at -1.0598 -0.95)
+		(size 1.2328 0.6046)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "2041e4e2-16a2-44ce-b28f-b758d70f3045")
+	)
+	(pad "2" smd rect
+		(at -1.0598 0.95)
+		(size 1.2328 0.6046)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "ded2d39e-7bf0-49b6-83fb-578550ad2c45")
+	)
+	(pad "3" smd rect
+		(at 1.0598 0)
+		(size 1.2328 0.6046)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "0a40ba72-3472-4bf9-a38c-a5251ae1918c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/SOT-23.step"
+		(offset
+			(xyz -0.04076666667 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

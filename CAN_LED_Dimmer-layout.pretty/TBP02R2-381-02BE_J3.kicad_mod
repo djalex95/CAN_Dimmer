@@ -1,0 +1,252 @@
+(footprint "TBP02R2-381-02BE_J3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "J3"
+		(at -2.5 0 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b9be9d91-99e6-49b6-a3e3-c38e89e6c037")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "CON_2P_TBP02R2-381-02BE"
+		(at 0 -5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42001e18-af03-41a2-882f-d6076d1fee75")
+		(effects
+			(font
+				(size 1.176528 1.176528)
+				(thickness 0.093472)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a1cdff7-584f-40d7-a729-b2f421f75392")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a6c0a19-1092-469b-a0fa-88504bac2e97")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "MCU - Bluetooth - CAN")
+	(sheetfile "CAN_LED_Dimmer_MCU.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.3 -0.945714)
+		(end -2.3 -4.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5583f258-b9b1-45e4-a8a8-42099efc3fa7")
+	)
+	(fp_line
+		(start -2.3 3)
+		(end -2.3 0.945715)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aa0d022d-feb5-4b96-bddd-b005666c6007")
+	)
+	(fp_line
+		(start -0.6038 -4.2)
+		(end 3.2478 -4.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5e678ef1-0529-4046-9a7f-a6e901d68e66")
+	)
+	(fp_line
+		(start 4.925 -4.2)
+		(end 5.9598 -4.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cbf9c09e-30a4-4647-b199-63ac9648030b")
+	)
+	(fp_line
+		(start 6.11 -3.639557)
+		(end 6.11 3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1b00562a-1266-46bc-9f8a-45b7bc95a41c")
+	)
+	(fp_line
+		(start 6.11 3)
+		(end -2.3 3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "28d1b98a-62a1-435b-8b9f-5ff3c4f5c5d5")
+	)
+	(fp_circle
+		(center -3.589104 0.306147)
+		(end -3.589104 0.456147)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "bf88e53e-4ac8-4238-a640-36aa5fd3eaa5")
+	)
+	(fp_line
+		(start -2.3 -4.2)
+		(end 6.11 -4.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "102f60d0-3482-425f-be8c-91325490520d")
+	)
+	(fp_line
+		(start -2.3 -4.2)
+		(end 6.11 -4.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8939091-4cf8-4790-a08c-faede0a18fbc")
+	)
+	(fp_line
+		(start -2.3 3)
+		(end -2.3 -4.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "127a4caf-8585-4ee7-a624-9f87986d39ab")
+	)
+	(fp_line
+		(start -2.3 3)
+		(end -2.3 -4.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a72110c0-681c-470c-a68a-06082eafb065")
+	)
+	(fp_line
+		(start 6.11 -4.2)
+		(end 6.11 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8416799f-922e-4b11-9e99-45340b3e5b69")
+	)
+	(fp_line
+		(start 6.11 -4.2)
+		(end 6.11 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9e5c326-c433-4a8d-8421-7b4cefb1602c")
+	)
+	(fp_line
+		(start 6.11 3)
+		(end -2.3 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59bad6fc-fdb6-4c73-8b0d-906943d93466")
+	)
+	(fp_line
+		(start 6.11 3)
+		(end -2.3 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb320a0f-8003-4a84-aee5-ccc47fa9b772")
+	)
+	(fp_circle
+		(center -2.85 0)
+		(end -2.8 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "84908938-dfee-4ec1-b066-7c1a1cdc3a25")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "8c358270-92b3-4091-987f-d39b164f2665")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "6f59f7a0-ea44-44e5-a760-3721cd714e67")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/TBP02R2-381-02BE.stp"
+		(offset
+			(xyz 19.04999895 -6.499999902 18.20000049)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 -90)
+		)
+	)
+)

@@ -1,0 +1,228 @@
+(footprint "01530008_F2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "01530008")
+	(property "Reference" "F2"
+		(at -3.5 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "70960747-4efe-4ad2-8951-8b35fae29220")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "01530008Z"
+		(at 7.3832 -5.061199 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d436e9c1-9ea1-4fb9-94ff-ff1d849565a9")
+		(effects
+			(font
+				(size 1.176528 1.176528)
+				(thickness 0.093472)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "baae3e51-04d7-4df8-818b-c400969f65c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "680f5d96-a9c7-4333-acc5-99b9b98dd1de")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "Power Supply")
+	(sheetfile "CAN_LED_Dimmer_2.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.81 -8.636)
+		(end -3.81 -0.98381)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6356173a-d98f-4742-8c1b-16d4a7889f54")
+	)
+	(fp_line
+		(start -3.81 0.983809)
+		(end -3.81 8.636)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "66d83914-08b7-4e1e-94b0-21f6e2cb157d")
+	)
+	(fp_line
+		(start -3.81 8.636)
+		(end 3.81 8.636)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "13b85153-b05a-4c9d-827b-6ffd66d32287")
+	)
+	(fp_line
+		(start 3.81 -8.636)
+		(end -3.81 -8.636)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b63e4825-d7b0-4879-9c86-9214d4e98568")
+	)
+	(fp_line
+		(start 3.81 8.636)
+		(end 3.81 -8.636)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "29970dfb-c6c7-45ec-bfb8-c994197d071d")
+	)
+	(fp_line
+		(start -3.81 8.636)
+		(end -3.809998 -8.636)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f931eb4f-702f-4e6d-bff8-0962125a13f2")
+	)
+	(fp_line
+		(start -3.81 8.636)
+		(end 3.809998 8.636)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c648e651-a45f-4fb2-8801-bda31082b363")
+	)
+	(fp_line
+		(start -3.809998 -8.636)
+		(end -3.81 8.636)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "199ca246-f960-486c-b7f5-f18206a36888")
+	)
+	(fp_line
+		(start -3.809998 -8.636)
+		(end 3.81 -8.636)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8877392-a87e-4138-9967-bfe083453a3d")
+	)
+	(fp_line
+		(start 3.809998 8.636)
+		(end -3.81 8.636)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "64e1ccbc-971b-489d-883e-4217b78d457c")
+	)
+	(fp_line
+		(start 3.809998 8.636)
+		(end 3.81 -8.636)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34310f94-2d06-48db-81fe-bda90e756e0e")
+	)
+	(fp_line
+		(start 3.81 -8.636)
+		(end -3.809998 -8.636)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7cfd576e-c1b0-41ff-9ac1-70a5cc9c4b1b")
+	)
+	(fp_line
+		(start 3.81 -8.636)
+		(end 3.809998 8.636)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb34a763-f25f-458a-a7f1-18b6483b76f1")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4.2926 4.2926)
+		(drill 3.7846)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a9532c22-77b3-4d0c-b1e3-9890cab37214")
+	)
+	(pad "1" thru_hole circle
+		(at 1.7272 -3.81)
+		(size 2 2)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "d48f2179-f162-42ed-9462-2fbb878ffbc0")
+	)
+	(pad "2" thru_hole circle
+		(at -1.7272 3.81)
+		(size 2 2)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "eb4707dc-7b41-47e5-a0da-616a022123d5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/01530008Z.stp"
+		(offset
+			(xyz 0 0 5.079999847)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

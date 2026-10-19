@@ -1,0 +1,252 @@
+(footprint "PG-TO252-3-313_Q8"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "3-TO, DPAK, 2.28 mm pitch, 9.98 mm span, 6.55 X 6.21 X 2.35 mm body\n\n3-pin TO, DPAK package with 2.28 mm pitch, 9.98 mm span with body size 6.55 X 6.21 X 2.35 mm")
+	(property "Reference" "Q8"
+		(at -2 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f4357a1c-2194-46d4-b346-c493401093ef")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "Q_IPD90P04P4L04ATMA2"
+		(at 0 3.96 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3e7a231-1870-4db6-ac56-a74fdaffb690")
+		(effects
+			(font
+				(size 1.176528 1.176528)
+				(thickness 0.093472)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ef7fe9c-320c-428b-824e-b171ccdc37aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e00067d1-efb5-44f8-b593-195d0c496ffa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "Power Supply")
+	(sheetfile "CAN_LED_Dimmer_2.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.075 -2.1428)
+		(end -2.075 -1.32)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f3dd6af9-b00f-40c9-8140-124227243cb2")
+	)
+	(fp_line
+		(start -2.075 0.3572)
+		(end -2.075 3.325)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5dd78e9e-6110-49cd-b722-209829a488c5")
+	)
+	(fp_line
+		(start -2.075 3.325)
+		(end 4.145 3.325)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ea3663ad-e106-47dd-b6a2-b5845fb8f41d")
+	)
+	(fp_line
+		(start -0.078095 -3.325)
+		(end 4.145 -3.325)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "79227fae-c006-418b-a3a2-4570fa4abe3f")
+	)
+	(fp_circle
+		(center -4.663582 -3.312203)
+		(end -4.443582 -3.312203)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "276f95e3-36dd-4a9a-86ec-8ff448a77f6d")
+	)
+	(fp_line
+		(start -2.075 -3.325)
+		(end -2.075 3.325)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "272c4280-9abb-40eb-8a61-838249c97e2d")
+	)
+	(fp_line
+		(start -2.075 -3.325)
+		(end 4.145 -3.325)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79bcd31d-b75b-47d1-a924-fececd6abb44")
+	)
+	(fp_line
+		(start -2.075 -3.325)
+		(end 4.145 -3.325)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fde8b26e-8c6b-465f-87aa-fd8ecee98e5a")
+	)
+	(fp_line
+		(start -2.075 3.325)
+		(end -2.075 -3.325)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45739f9e-99b1-4fa5-a81a-cf7a55955711")
+	)
+	(fp_line
+		(start -2.075 3.325)
+		(end 4.145 3.325)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14a170f7-1b59-4fd0-8351-ce230f6a4999")
+	)
+	(fp_line
+		(start 4.145 -3.325)
+		(end 4.145 -3.0498)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a793e9fc-d039-494e-8032-dffc708b37ac")
+	)
+	(fp_line
+		(start 4.145 -3.325)
+		(end 4.145 3.325)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b82bb4e-789f-4ee8-8237-e2e7a082b7cc")
+	)
+	(fp_line
+		(start 4.145 3.325)
+		(end -2.075 3.325)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae1f16b8-6271-4769-a3bb-77a95069b5c7")
+	)
+	(fp_line
+		(start 4.145 3.325)
+		(end 4.145 3.0498)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0348876c-ab34-46b9-8cd5-f9405124abdb")
+	)
+	(fp_circle
+		(center -4.525 -3.2548)
+		(end -4.4 -3.2548)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "7824ebf0-7139-4bad-bd91-518b07fa0f0a")
+	)
+	(pad "1" smd rect
+		(at -4.525 -2.28)
+		(size 2.1367 0.9415)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "5ff5aa1e-a2f1-4b17-a381-14e039611ece")
+	)
+	(pad "2" smd rect
+		(at -4.525 2.28)
+		(size 2.1367 0.9415)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "039ce6e1-c698-4f8d-846d-10f492785670")
+	)
+	(pad "3" smd rect
+		(at 3.03 0)
+		(size 5.1268 5.5915)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "d50f4592-5d97-4669-aa22-1c8aef4c05bf")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/TO-252-2.step"
+		(offset
+			(xyz 1.035 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

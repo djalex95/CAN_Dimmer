@@ -1,0 +1,182 @@
+(footprint "OSCCC720X520X130N_7X5X1.3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Oscillator Corner Concave, 7.20 X 5.20 X 1.30 mm body\n\nOscillator Corner Concave package with body size 7.20 X 5.20 X 1.30 mm")
+	(property "Reference" "REF**"
+		(at 0 -3.6033 0)
+		(layer "F.SilkS")
+		(uuid "0deaf80c-dfca-46a0-87f2-dd167975f4b5")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "OSCCC720X520X130N_7X5X1.3"
+		(at 0 3.6033 0)
+		(layer "F.Fab")
+		(uuid "30c23c10-03bb-4ecb-be4a-b52269745805")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2f036b7-1421-4b89-9236-bdf2ac6ca913")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f63e28d1-8766-4392-b0ce-e0665df3b92a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.9683 -0.4577)
+		(end -3.9683 0.4577)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffa8d525-6a30-4a3f-85b5-0afdcb981c0b")
+	)
+	(fp_line
+		(start -2.0877 -2.9683)
+		(end 2.0877 -2.9683)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc7d0fc7-e22c-4d1a-b7c5-557cd560f593")
+	)
+	(fp_line
+		(start 2.0877 2.9683)
+		(end -2.0877 2.9683)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "981be2e2-84cc-4faa-85ce-1968f499a024")
+	)
+	(fp_line
+		(start 3.9683 0.4577)
+		(end 3.9683 -0.4577)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5a233e4-564b-4a8f-8a5a-b751dd19a61a")
+	)
+	(fp_circle
+		(center -4.4123 1.81)
+		(end -4.2873 1.81)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "da31ef05-7b41-4a89-ad90-7a99eb4f5fcc")
+	)
+	(fp_line
+		(start -3.6 -2.6)
+		(end 3.6 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b393b0ff-ee2f-4914-bdb0-8dd6610c2be7")
+	)
+	(fp_line
+		(start -3.6 2.6)
+		(end -3.6 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0bdefcab-a134-4beb-abc6-21b6aa1b950f")
+	)
+	(fp_line
+		(start 3.6 -2.6)
+		(end 3.6 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1dc9c05a-50f7-4625-b09e-f53c2d29c1fd")
+	)
+	(fp_line
+		(start 3.6 2.6)
+		(end -3.6 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6475b2f2-5bc1-4d29-afba-808c5a23e439")
+	)
+	(pad "1" smd rect
+		(at -3.125 1.81)
+		(size 1.5666 2.1966)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "8e6ea612-0853-4a0a-8071-e820a2a07c21")
+	)
+	(pad "2" smd rect
+		(at 3.125 1.81)
+		(size 1.5666 2.1966)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "31c27615-211f-40d4-bf72-542c4cc2d315")
+	)
+	(pad "3" smd rect
+		(at 3.125 -1.81)
+		(size 1.5666 2.1966)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "5663af39-efbc-47e7-af17-a6b51023eb45")
+	)
+	(pad "4" smd rect
+		(at -3.125 -1.81)
+		(size 1.5666 2.1966)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "b292c184-d446-4615-be55-31494984b1e9")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,10 @@
+Review-*/
+.codex-backups/
+.history/
+*-backups/
+fp-info-cache
+*.lck
+_autosave-*
+*-cache.lib
+*.bak
+*.kicad_prl

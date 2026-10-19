@@ -1,0 +1,210 @@
+(footprint "DIONM5436X265N_D12"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "D12"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "92ef6dbc-ca59-45fe-bd63-f3c470d4a256")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SM6T27CA"
+		(at 0 1.524 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49919e4d-3c0f-4b62-939b-5695711dfedc")
+		(effects
+			(font
+				(size 1.176528 1.176528)
+				(thickness 0.093472)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ae5a386-b7ca-435c-a6e3-86e7a286ed7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5a2ab98-00e0-414c-8361-45658a90bdd3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "Power Supply")
+	(sheetfile "CAN_LED_Dimmer_2.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.675 -1.812)
+		(end -0.16 -1.812)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "db8375d4-bbf3-4da9-a473-d4dc04a1afcb")
+	)
+	(fp_line
+		(start -2.675 1.812)
+		(end 2.675 1.812)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4ee1241a-9611-4581-a92b-f7b6c8572a9d")
+	)
+	(fp_line
+		(start -3.55 -2.225)
+		(end 3.55 -2.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bbf140c6-3c3a-4924-9ebd-006a0aea91a6")
+	)
+	(fp_line
+		(start -3.55 2.225)
+		(end -3.55 -2.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0141d7d8-98a0-4a50-a409-e532fdb858dc")
+	)
+	(fp_line
+		(start -3.55 2.225)
+		(end 3.55 2.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "351a0835-bc85-4d07-ae6a-45785c889882")
+	)
+	(fp_line
+		(start -2.675 -1.812)
+		(end 2.675 -1.812)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cac8db01-6ecb-464e-a6e7-c807605fcde0")
+	)
+	(fp_line
+		(start -2.675 -1.812)
+		(end 2.675 -1.812)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6efb7b1c-2a0d-4106-8904-a1accefa5cc3")
+	)
+	(fp_line
+		(start -2.675 1.812)
+		(end -2.675 -1.812)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27a74f37-5950-4e14-b4e0-3ed9f8a1099b")
+	)
+	(fp_line
+		(start -2.675 1.812)
+		(end 2.675 1.812)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9243f4d8-0350-4230-9aa7-0c8b91aa7237")
+	)
+	(fp_line
+		(start -2.675 1.812)
+		(end 2.675 1.812)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "989a7b60-8526-4e35-830a-ac6430a250ca")
+	)
+	(fp_line
+		(start 2.675 1.812)
+		(end 2.675 -1.812)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7e01fe7-f370-4722-a8c6-4607c1c105b3")
+	)
+	(fp_line
+		(start 3.55 2.225)
+		(end 3.55 -2.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9bda56ba-469c-487f-8150-3cda863e4ddc")
+	)
+	(pad "1" smd rect
+		(at -2.2 0)
+		(size 2.2 2.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "4cb80329-e65c-4648-a491-c27c7e009544")
+	)
+	(pad "2" smd rect
+		(at 2.2 0)
+		(size 2.2 2.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "012b4b0c-df90-4934-bc65-cd9d3df92296")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/D_SMB.step"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

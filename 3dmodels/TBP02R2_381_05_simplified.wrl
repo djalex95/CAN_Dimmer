@@ -1,0 +1,12 @@
+#VRML V2.0 utf8
+# Simplified visualization model; not a manufacturer CAD model. Dimensions in 0.1 inch units.
+Transform { translation 3.0 0.0 0.354331 children [ Shape { appearance Appearance { material Material { diffuseColor 0.05 0.22 0.65 } } geometry Box { size 7.811024 2.755906 0.708661 } } ] }
+Transform { translation 3.0 -1.181102 2.165354 children [ Shape { appearance Appearance { material Material { diffuseColor 0.05 0.22 0.65 } } geometry Box { size 7.811024 0.393701 2.913386 } } ] }
+Transform { translation 3.0 1.181102 2.165354 children [ Shape { appearance Appearance { material Material { diffuseColor 0.05 0.22 0.65 } } geometry Box { size 7.811024 0.393701 2.913386 } } ] }
+Transform { translation -0.708661 0.0 2.165354 children [ Shape { appearance Appearance { material Material { diffuseColor 0.05 0.22 0.65 } } geometry Box { size 0.393701 1.968504 2.913386 } } ] }
+Transform { translation 6.708661 0.0 2.165354 children [ Shape { appearance Appearance { material Material { diffuseColor 0.05 0.22 0.65 } } geometry Box { size 0.393701 1.968504 2.913386 } } ] }
+Transform { translation 0.0 0.0 0.787402 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.74 0.76 } } geometry Box { size 0.314961 0.314961 3.937008 } } ] }
+Transform { translation 1.5 0.0 0.787402 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.74 0.76 } } geometry Box { size 0.314961 0.314961 3.937008 } } ] }
+Transform { translation 3.0 0.0 0.787402 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.74 0.76 } } geometry Box { size 0.314961 0.314961 3.937008 } } ] }
+Transform { translation 4.5 0.0 0.787402 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.74 0.76 } } geometry Box { size 0.314961 0.314961 3.937008 } } ] }
+Transform { translation 6.0 0.0 0.787402 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.74 0.76 } } geometry Box { size 0.314961 0.314961 3.937008 } } ] }

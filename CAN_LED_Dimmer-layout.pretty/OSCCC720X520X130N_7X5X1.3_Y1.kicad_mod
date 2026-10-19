@@ -1,0 +1,251 @@
+(footprint "OSCCC720X520X130N_7X5X1.3_Y1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Oscillator Corner Concave, 7.20 X 5.20 X 1.30 mm body\n\nOscillator Corner Concave package with body size 7.20 X 5.20 X 1.30 mm")
+	(property "Reference" "Y1"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c36ad69b-b831-4978-9272-6fe60ba39948")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "8MHz"
+		(at 0 3.6033 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e626cf5-26d0-45dd-bd2e-a4d46c63a5de")
+		(effects
+			(font
+				(size 1.176528 1.176528)
+				(thickness 0.093472)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f89857d9-d0f2-437b-979c-0832e686ff46")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89b4a678-c30f-4926-8fda-bb7f43b5853d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "MCU - Bluetooth - CAN")
+	(sheetfile "CAN_LED_Dimmer_MCU.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.0683 -0.444753)
+		(end -4.0683 0.444753)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e65c1a62-0cb4-40f0-9673-4c82653746b0")
+	)
+	(fp_line
+		(start -2.0877 -3.3683)
+		(end 0.490007 -3.3683)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df9728e0-2ceb-45df-ab93-1f992f7d33bb")
+	)
+	(fp_line
+		(start 2.03597 2.9683)
+		(end -2.03597 2.9683)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "383b1e95-ce01-4571-9426-c2e3459e189d")
+	)
+	(fp_line
+		(start 4.0683 0.444753)
+		(end 4.0683 -0.444753)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "08bfda4d-bfa4-40d4-a1b7-78e7c09b7351")
+	)
+	(fp_circle
+		(center -4.469703 1.948582)
+		(end -4.249703 1.948582)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "70932ef7-76c5-40e5-8048-986630e73117")
+	)
+	(fp_line
+		(start -3.9683 -0.4577)
+		(end -3.9683 0.4577)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffbcd4f8-1611-43ba-a55e-fb1777a3185d")
+	)
+	(fp_line
+		(start -3.6 -2.6)
+		(end 3.6 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6f3060b0-26bc-4939-a9c0-9fc534e4f727")
+	)
+	(fp_line
+		(start -3.6 2.6)
+		(end -3.6 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "889d558d-d329-48dc-85de-bfef42c3e1fd")
+	)
+	(fp_line
+		(start -2.0877 -2.9683)
+		(end 2.0877 -2.9683)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bddc2edc-ce4f-469f-acdb-ee4412f568d7")
+	)
+	(fp_line
+		(start 2.0877 2.9683)
+		(end -2.0877 2.9683)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05144c3b-419e-4c44-b02d-c8b53963c7a8")
+	)
+	(fp_line
+		(start 3.6 -2.6)
+		(end 3.6 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a656c78d-b77a-40c9-88e6-7d6018d34825")
+	)
+	(fp_line
+		(start 3.6 2.6)
+		(end -3.6 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0126edf7-678b-4221-8d1c-cb4948b232fa")
+	)
+	(fp_line
+		(start 3.9683 0.4577)
+		(end 3.9683 -0.4577)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b2b8c33-020c-47e1-a3a0-f7be08c6c793")
+	)
+	(fp_circle
+		(center -4.4123 1.81)
+		(end -4.2873 1.81)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "d073d1b6-f39e-49e6-af75-27ecaa12e2f3")
+	)
+	(pad "1" smd rect
+		(at -3.125 1.81)
+		(size 1.5666 2.1966)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "3a713486-66fd-409e-b005-133c2777190d")
+	)
+	(pad "2" smd rect
+		(at 3.125 1.81)
+		(size 1.5666 2.1966)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "145c9066-8a3a-4533-93d1-c67b81f73ceb")
+	)
+	(pad "3" smd rect
+		(at 3.125 -1.81)
+		(size 1.5666 2.1966)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "8112f045-4e2f-48bf-b0e8-ac54ab545f9d")
+	)
+	(pad "4" smd rect
+		(at -3.125 -1.81)
+		(size 1.5666 2.1966)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "1dfcfbe2-bb2f-4092-9db0-c2a8206b6feb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/Crystal_SMD_WE_12SMX-4Pin_7.0x5.0mm.step"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,5 @@
+#VRML V2.0 utf8
+# Simplified visualization model; not a manufacturer CAD model. Dimensions in 0.1 inch units.
+Transform { translation 0.0 0.0 0.629921 children [ Shape { appearance Appearance { material Material { diffuseColor 0.16 0.16 0.18 } } geometry Box { size 2.598425 2.598425 1.102362 } } ] }
+Transform { translation -1.122047 0.0 0.059055 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.74 0.76 } } geometry Box { size 0.551181 1.181102 0.11811 } } ] }
+Transform { translation 1.122047 0.0 0.059055 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.74 0.76 } } geometry Box { size 0.551181 1.181102 0.11811 } } ] }

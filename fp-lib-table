@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CAN_LED_Dimmer-import-fps") (type "KiCad") (uri "${KIPRJMOD}/CAN_LED_Dimmer-import-fps.pretty") (options "kicad_import_cache=1") (descr ""))
+ (lib (name "CAN_LED_Dimmer-layout") (type "KiCad") (uri "${KIPRJMOD}/CAN_LED_Dimmer-layout.pretty") (options "") (descr "Project layout package variants; derived from imported and standard footprints"))
+)
