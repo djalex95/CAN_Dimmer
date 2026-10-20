@@ -2787,7 +2787,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CAN LED Dimmer-eagle-import:IND_ASPI-0630LR-220M-T15"
+		(symbol "CAN LED Dimmer-eagle-import:IND_SMMS0630-220M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2804,7 +2804,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "20ÂµH 2.5A"
+			(property "Value" "22uH 2.6A"
 				(at -2.794 -2.794 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2826,7 +2826,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C128694.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2837,7 +2837,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Shielded 22uH, DCR 135mOhm max, Isat 3.5A typ; LCSC C128694"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2848,7 +2848,7 @@
 					)
 				)
 			)
-			(property "MANUFACTURER" "Abracon"
+			(property "MANUFACTURER" "SXN (Shun Xiang Nuo)"
 				(at 0 -4.318 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2859,7 +2859,7 @@
 					)
 				)
 			)
-			(property "MPN" "ASPI-0630LR-220M-T15"
+			(property "MPN" "SMMS0630-220M"
 				(at 0 -5.842 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2880,7 +2880,7 @@
 					)
 				)
 			)
-			(symbol "IND_ASPI-0630LR-220M-T15_1_0"
+			(symbol "IND_SMMS0630-220M_1_0"
 				(circle
 					(center -3.6705 -1.27)
 					(radius 0.14)
@@ -9777,7 +9777,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CAN LED Dimmer-eagle-import:IND_ASPI-0630LR-220M-T15")
+		(lib_id "CAN LED Dimmer-eagle-import:IND_SMMS0630-220M")
 		(at 149.86 185.42 0)
 		(unit 1)
 		(body_style 1)
@@ -9798,7 +9798,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "22uH 2.5A"
+		(property "Value" "22uH 2.6A"
 			(at 154.686 183.134 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9809,7 +9809,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAN_LED_Dimmer-layout:INDM7166X300N_ASPI-0630LR_I1"
+		(property "Footprint" "CAN_LED_Dimmer-layout:SMMS0630-220M_I1"
 			(at 149.86 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -9820,7 +9820,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C128694.pdf"
 			(at 149.86 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -9831,7 +9831,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Shielded 22uH, DCR 135mOhm max, Isat 3.5A typ; LCSC C128694"
 			(at 149.86 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -9842,7 +9842,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Abracon"
+		(property "MANUFACTURER" "SXN (Shun Xiang Nuo)"
 			(at 149.86 192.786 0)
 			(hide yes)
 			(show_name no)
@@ -9853,7 +9853,7 @@
 				)
 			)
 		)
-		(property "MPN" "ASPI-0630LR-220M-T15"
+		(property "MPN" "SMMS0630-220M"
 			(at 149.86 194.31 0)
 			(hide yes)
 			(show_name no)
