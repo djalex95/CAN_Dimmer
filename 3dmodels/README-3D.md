@@ -39,3 +39,8 @@ Die vereinfachten Modelle und StandardgehÃ¤use sind zur Visualisierung gedacht
 D18â€“D21 und R41â€“R44 verwenden projektlokale KiCad-Standardmodelle fÃ¼r 0603-LEDs und 1206-WiderstÃ¤nde. GrÃ¼ne LED-BestÃ¼ckung ist im Schaltplan hinterlegt; das generische 3D-Modell bildet die Lichtfarbe nicht verbindlich ab.
 
 Die drei früheren vereinfachten Stecker-Modelle wurden nach Ersatz durch STEP-Dateien aus dem aktiven Projekt entfernt und separat archiviert.
+
+
+## STM32G0B1CEU6 / U3
+
+`STM32G0B1CEU6_UFQFPN48_simplified.wrl` ist ein vereinfachtes Visualisierungsmodell, kein Hersteller-CAD-Modell. Gehaeuse 7 x 7 x 0,55 mm, 48 Anschluesse mit 0,5-mm-Raster, Exposed Pad 5,6 x 5,6 mm und Pin-1-Markierung. Abmessungen nach ST DS13560. Der Fertigungs-Footprint basiert auf KiCad `QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm`.

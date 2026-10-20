@@ -6,7 +6,7 @@ Vierkanaliger LED-Dimmer mit CAN-Bus und Bluetooth LE, entwickelt in KiCad 10.
 
 - 4 LED-KanÃ¤le mit je etwa 5 A, PWM 1 kHz (strombegrenzte LED-Streifen als Last angenommen)
 - Versorgung 12 V nominal, 24 V optional; zwei Eingangszweige mit je 10-A-Sicherung und TVS-Schutz
-- Steuerung: STM32G0B1CCT6 mit externem 8-MHz-Quarz
+- Steuerung: STM32G0B1CEU6 (UFQFPN48, 7 x 7 mm, 512 KB Flash) mit externem 8-MHz-Quarz
 - Kommunikation: CAN (TLT9251VLE, externe Terminierung) und Bluetooth LE (WÃ¼rth Proteus-IV 2621011024000)
 - High-Side-Schalter BTS70202 (je zwei KanÃ¤le) mit Stromdiagnose, P-Kanal-MOSFETs fÃ¼r die Lastzweige
 - Spannungsversorgung: LM5166X (5 V) und NCP730 (3,3 V)

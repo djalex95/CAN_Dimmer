@@ -2975,7 +2975,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CAN LED Dimmer-eagle-import:IC_STM32G0B1CCT6"
+		(symbol "CAN LED Dimmer-eagle-import:IC_STM32G0B1CEU6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2992,7 +2992,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "STM32G0B1CEU6"
 				(at 0 -7.62 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3003,7 +3003,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "CAN LED Dimmer:QFP50P900X900X160-48N"
+			(property "Footprint" "CAN_LED_Dimmer-layout:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_U3"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3014,7 +3014,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1ce.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3025,7 +3025,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "STM32G0B1CEU6, Cortex-M0+, 512KB Flash, UFQFPN48 7x7mm; EP49 stacked with VSS7 to GND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3047,7 +3047,7 @@
 					)
 				)
 			)
-			(property "MPN" "STM32G0B1CCT6"
+			(property "MPN" "STM32G0B1CEU6"
 				(at 15.24 -10.668 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3068,7 +3068,7 @@
 					)
 				)
 			)
-			(symbol "IC_STM32G0B1CCT6_1_0"
+			(symbol "IC_STM32G0B1CEU6_1_0"
 				(rectangle (start -17.78 22.86) (end 15.24 -25.4) (stroke
 						(width 0.254)
 						(type solid)
@@ -3940,7 +3940,27 @@
 						)
 					)
 				)
-			)
+			
+(pin passive line
+					(at -22.86 -2.54 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				 (hide yes)
+)
+)
 			(embedded_fonts no)
 		)
 		(symbol "CAN LED Dimmer-eagle-import:RCHIP-0603(1608-METRIC)_"
@@ -4209,7 +4229,7 @@
 					)
 				)
 			)
-			(property "Description" "6ÂµH @ 100kHz 2 Line Common Mode Choke Surface Mount 3 kOhms @ 100MHz 500mA DCR 200mOhm"
+			(property "Description" "6Ã‚ÂµH @ 100kHz 2 Line Common Mode Choke Surface Mount 3 kOhms @ 100MHz 500mA DCR 200mOhm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4964,7 +4984,7 @@
 					)
 				)
 			)
-			(property "Description" "Proteus-IV - BluetoothÂ® LE 6.0 Module  WIRL-BTLE BluetoothÂ® LE 6.0 Module   Details see: https://we-online.de/katalog/en/article/2621011024000/"
+			(property "Description" "Proteus-IV - BluetoothÃ‚Â® LE 6.0 Module  WIRL-BTLE BluetoothÃ‚Â® LE 6.0 Module   Details see: https://we-online.de/katalog/en/article/2621011024000/"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4975,7 +4995,7 @@
 					)
 				)
 			)
-			(property "MANUFACTURER" "WÃ¼rth Elektronik"
+			(property "MANUFACTURER" "WÃƒÂ¼rth Elektronik"
 				(at 12.7 -1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -11312,7 +11332,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CAN LED Dimmer-eagle-import:IC_STM32G0B1CCT6")
+		(lib_id "CAN LED Dimmer-eagle-import:IC_STM32G0B1CEU6")
 		(at 208.28 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -11333,7 +11353,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "IC_STM32G0B1CCT6"
+		(property "Value" "STM32G0B1CEU6"
 			(at 208.28 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11344,7 +11364,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAN_LED_Dimmer-layout:QFP50P900X900X160-48N_U3"
+		(property "Footprint" "CAN_LED_Dimmer-layout:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_U3"
 			(at 208.28 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11355,7 +11375,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1ce.pdf"
 			(at 208.28 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11388,7 +11408,7 @@
 				)
 			)
 		)
-		(property "MPN" "STM32G0B1CCT6"
+		(property "MPN" "STM32G0B1CEU6"
 			(at 223.52 148.336 0)
 			(hide yes)
 			(show_name no)
@@ -11551,7 +11571,9 @@
 				)
 			)
 		)
-	)
+	
+(pin "49" (uuid "362ca186-c3ab-436c-a0d6-6fc6ee643715"))
+)
 	(symbol
 		(lib_id "CAN LED Dimmer-eagle-import:GND")
 		(at 345.44 81.28 0)
@@ -13276,7 +13298,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "1ÂµF"
+		(property "Value" "1Ã‚ÂµF"
 			(at 71.12 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16424,7 +16446,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "WÃ¼rth Elektronik"
+		(property "MANUFACTURER" "WÃƒÂ¼rth Elektronik"
 			(at 127 230.124 0)
 			(hide yes)
 			(show_name no)
