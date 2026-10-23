@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "SW zu GND"
+  (condition "A.NetName == 'Net-(U4-SW)' && B.NetName == 'GND'")
+  (constraint clearance (min 0.2mm))
+)

@@ -3141,13 +3141,17 @@
 				)
 			)
 			(symbol "NCP730BMT330TBG_1_0"
-				(rectangle (start 5.08 2.54) (end 30.48 -12.7) (stroke
+				(rectangle
+					(start 5.08 2.54)
+					(end 30.48 -12.7)
+					(stroke
 						(width 0.1524)
 						(type solid)
-					) (fill (type background)))
-				
-				
-				
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
@@ -4291,13 +4295,17 @@
 				)
 			)
 			(symbol "U_LM5166XDRCR_1_0"
-				(rectangle (start -10.16 7.62) (end 10.16 -15.24) (stroke
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -15.24)
+					(stroke
 						(width 0.254)
 						(type solid)
-					) (fill (type background)))
-				
-				
-				
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin bidirectional line
 					(at 15.24 5.08 180)
 					(length 5.08)
@@ -4688,9 +4696,18 @@
 			)
 			(embedded_fonts no)
 		)
-	
-
-)
+	)
+	(text "F1 / F2: MINI-Sicherungshalter; Bestueckung mit je 10-A-Sicherung."
+		(exclude_from_sim no)
+		(at 30 265 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "caacee2f-1b41-4d37-a260-521cff6fe217")
+	)
 	(junction
 		(at 127 213.36)
 		(diameter 0)
@@ -4882,6 +4899,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe1780df-5a0b-4d60-a0b0-dd26eb90b43b")
+	)
+	(no_connect
+		(at 139.7 190.5)
+		(uuid "32b3c1cc-5edf-4d07-baf2-230d5e1994dc")
+	)
+	(no_connect
+		(at 109.22 193.04)
+		(uuid "47e0c62d-7b2c-4a91-a87d-d124567d7e69")
+	)
+	(no_connect
+		(at 200.66 187.96)
+		(uuid "74bb668a-e07d-47e9-ae78-a0666408edd5")
+	)
+	(no_connect
+		(at 236.22 187.96)
+		(uuid "7f4296c2-4631-4097-bd59-76836b632c5e")
 	)
 	(wire
 		(pts
@@ -6090,30 +6123,6 @@
 		(uuid "ab4370f0-2541-4149-b995-f40111c25429")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 148.5667 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "V_IN_B"
-		(shape bidirectional)
-		(at 170.18 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "f4adbfba-a4e9-4a99-aa9d-d319f2caf7a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.9198 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11138,21 +11147,4 @@
 			(page "3")
 		)
 	)
-
-(text "F1 / F2: MINI-Sicherungshalter; Bestueckung mit je 10-A-Sicherung."
- (at 30 265 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "caacee2f-1b41-4d37-a260-521cff6fe217"))
-
-(no_connect (at 109.22 193.04) (uuid "47e0c62d-7b2c-4a91-a87d-d124567d7e69"))
-
-(no_connect (at 139.7 190.5) (uuid "32b3c1cc-5edf-4d07-baf2-230d5e1994dc"))
-
-(no_connect (at 200.66 187.96) (uuid "74bb668a-e07d-47e9-ae78-a0666408edd5"))
-
-(no_connect (at 236.22 187.96) (uuid "7f4296c2-4631-4097-bd59-76836b632c5e"))
-
-
-
-
-
-
 )

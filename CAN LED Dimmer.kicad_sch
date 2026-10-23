@@ -1,25 +1,174 @@
-(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
- (uuid "a168f1dc-c10d-4e08-bf2f-acc100395e2c") (paper "A4")
- (title_block (title "CAN LED Dimmer - Overview"))
- (text "CAN LED Dimmer" (at 30 30 0) (effects (font (size 3 3)) (justify left)) (uuid "1ff0cfd9-caed-4532-9bb7-e65e7d50443d"))
- (text "12 V nominal / 24 V optional - 4 LED channels - PWM 1 kHz\nSignals and supplies connect through global labels on the sub-sheets."
- (at 30 43 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "cddc521d-f939-4152-8a4a-f55ce9451316"))
-(sheet (at 30 70) (size 65 35)
- (stroke (width 0.254) (type default)) (fill (color 0 0 0 0)) (uuid "dafd71c7-cbce-4965-a265-1c9f6ed6f473")
- (property "Sheetname" "MCU - Bluetooth - CAN" (at 30 68.5 0) (effects (font (size 1.27 1.27)) (justify left bottom)))
- (property "Sheetfile" "CAN_LED_Dimmer_MCU.kicad_sch" (at 30 107 0) (effects (font (size 1 1)) (justify left top)))
- (instances (project "CAN LED Dimmer" (path "/a168f1dc-c10d-4e08-bf2f-acc100395e2c" (page "2"))))
- )
-(sheet (at 110 70) (size 65 35)
- (stroke (width 0.254) (type default)) (fill (color 0 0 0 0)) (uuid "8170491a-fb32-44a3-b2d5-7fdd090eb7d9")
- (property "Sheetname" "Power Supply" (at 110 68.5 0) (effects (font (size 1.27 1.27)) (justify left bottom)))
- (property "Sheetfile" "CAN_LED_Dimmer_2.kicad_sch" (at 110 107 0) (effects (font (size 1 1)) (justify left top)))
- (instances (project "CAN LED Dimmer" (path "/a168f1dc-c10d-4e08-bf2f-acc100395e2c" (page "3"))))
- )
-(sheet (at 190 70) (size 65 35)
- (stroke (width 0.254) (type default)) (fill (color 0 0 0 0)) (uuid "08c076b9-9d13-4e19-8504-130ed3a014e2")
- (property "Sheetname" "LED Outputs" (at 190 68.5 0) (effects (font (size 1.27 1.27)) (justify left bottom)))
- (property "Sheetfile" "CAN_LED_Dimmer_3.kicad_sch" (at 190 107 0) (effects (font (size 1 1)) (justify left top)))
- (instances (project "CAN LED Dimmer" (path "/a168f1dc-c10d-4e08-bf2f-acc100395e2c" (page "4"))))
- )
-(sheet_instances (path "/" (page "1"))))
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a168f1dc-c10d-4e08-bf2f-acc100395e2c")
+	(paper "A4")
+	(title_block
+		(title "CAN LED Dimmer - Overview")
+	)
+	(lib_symbols)
+	(text "CAN LED Dimmer"
+		(exclude_from_sim no)
+		(at 30 30 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "1ff0cfd9-caed-4532-9bb7-e65e7d50443d")
+	)
+	(text "12 V nominal / 24 V optional - 4 LED channels - PWM 1 kHz\nSignals and supplies connect through global labels on the sub-sheets."
+		(exclude_from_sim no)
+		(at 30 43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cddc521d-f939-4152-8a4a-f55ce9451316")
+	)
+	(sheet
+		(at 190 70)
+		(size 65 35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "08c076b9-9d13-4e19-8504-130ed3a014e2")
+		(property "Sheetname" "LED Outputs"
+			(at 190 68.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_LED_Dimmer_3.kicad_sch"
+			(at 190 107 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CAN LED Dimmer"
+				(path "/a168f1dc-c10d-4e08-bf2f-acc100395e2c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110 70)
+		(size 65 35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8170491a-fb32-44a3-b2d5-7fdd090eb7d9")
+		(property "Sheetname" "Power Supply"
+			(at 110 68.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_LED_Dimmer_2.kicad_sch"
+			(at 110 107 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CAN LED Dimmer"
+				(path "/a168f1dc-c10d-4e08-bf2f-acc100395e2c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30 70)
+		(size 65 35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dafd71c7-cbce-4965-a265-1c9f6ed6f473")
+		(property "Sheetname" "MCU - Bluetooth - CAN"
+			(at 30 68.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_LED_Dimmer_MCU.kicad_sch"
+			(at 30 107 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CAN LED Dimmer"
+				(path "/a168f1dc-c10d-4e08-bf2f-acc100395e2c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
