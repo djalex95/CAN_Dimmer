@@ -5966,54 +5966,6 @@
 		)
 		(uuid "fe425ab3-cee2-48fc-aa08-15bb8edb110c")
 	)
-	(global_label "V_MCU"
-		(shape bidirectional)
-		(at 93.98 187.96 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "088413ad-1c98-46d4-9378-45d117c6b177")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 179.7966 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "+3V3"
-		(shape bidirectional)
-		(at 236.22 185.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "0cde994a-ab34-4a98-a471-6054b3a08149")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.8791 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "V_IN_A"
 		(shape bidirectional)
 		(at 170.18 53.34 180)
@@ -6107,30 +6059,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "+5V"
-		(shape bidirectional)
-		(at 154.94 185.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "ab4370f0-2541-4149-b995-f40111c25429")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.5667 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -7042,7 +6970,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "1ÂµF"
+		(property "Value" "10µF"
 			(at 248.92 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9272,7 +9200,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "1ÂµF"
+		(property "Value" "10µF"
 			(at 195.58 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
