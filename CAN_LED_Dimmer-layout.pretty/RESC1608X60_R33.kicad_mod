@@ -17,7 +17,7 @@
 			(justify bottom)
 		)
 	)
-	(property "Value" "4k7"
+	(property "Value" "4.7k"
 		(at 0 1.4359 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -167,5 +167,16 @@
 		(rotate
 			(xyz 0 0 0)
 		)
+	)
+	(fp_rect
+		(start -1.4 -0.65)
+		(end 1.4 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fc660d68-0def-42ef-ba3c-ed34cf6d3427")
 	)
 )

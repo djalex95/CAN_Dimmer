@@ -239,4 +239,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(fp_rect
+		(start -1.85 -1.6)
+		(end 1.85 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "108849ae-592d-4f2f-8695-6a4c05adce90")
+	)
 )

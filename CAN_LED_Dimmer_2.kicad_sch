@@ -7395,7 +7395,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "47ÂµF"
+		(property "Value" "47µF"
 			(at 165.1 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7620,7 +7620,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "4.7ÂµF"
+		(property "Value" "4.7µF"
 			(at 96.52 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
