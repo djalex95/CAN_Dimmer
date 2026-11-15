@@ -1,4 +1,6 @@
-(sym_lib_table
-	(version 7)
-	(lib (name "CAN LED Dimmer-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/CAN LED Dimmer-eagle-import.kicad_sym") (options "") (descr ""))
-)
+(sym_lib_table
+	(version 7)
+	(lib (name "CAN LED Dimmer-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/CAN LED Dimmer-eagle-import.kicad_sym") (options "") (descr ""))
+
+ (lib (name "CAN_LED_Dimmer-MCU") (type "KiCad") (uri "${KIPRJMOD}/CAN_LED_Dimmer-MCU.kicad_sym") (options "") (descr "STM32C552RET6: generic and project signal variant"))
+)

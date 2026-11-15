@@ -2979,997 +2979,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CAN LED Dimmer-eagle-import:IC_STM32G0B1CEU6"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 15.24 25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "STM32G0B1CEU6"
-				(at 0 -7.62 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "CAN_LED_Dimmer-layout:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_U3"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1ce.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "STM32G0B1CEU6, Cortex-M0+, 512KB Flash, UFQFPN48 7x7mm; EP49 stacked with VSS7 to GND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MANUFACTURER" "ST"
-				(at 15.24 -9.144 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "STM32G0B1CEU6"
-				(at 15.24 -10.668 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "IC_STM32G0B1CEU6_1_0"
-				(rectangle
-					(start -17.78 22.86)
-					(end 15.24 -25.4)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 12.7 0)
-					(length 5.08)
-					(name "PC13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 10.16 0)
-					(length 5.08)
-					(name "PC14"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 7.62 0)
-					(length 5.08)
-					(name "PC15"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 5.08 0)
-					(length 5.08)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 2.54 0)
-					(length 5.08)
-					(name "VREF+"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 0 0)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -2.54 0)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -5.08 0)
-					(length 5.08)
-					(name "PF0"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -7.62 0)
-					(length 5.08)
-					(name "PF1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -10.16 0)
-					(length 5.08)
-					(name "PF2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -12.7 0)
-					(length 5.08)
-					(name "PA0"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -15.24 0)
-					(length 5.08)
-					(name "PA1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -30.48 90)
-					(length 5.08)
-					(name "PA2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -30.48 90)
-					(length 5.08)
-					(name "PA3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -30.48 90)
-					(length 5.08)
-					(name "PA4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -7.62 -30.48 90)
-					(length 5.08)
-					(name "PA5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -30.48 90)
-					(length 5.08)
-					(name "PA6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -30.48 90)
-					(length 5.08)
-					(name "PA7"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -30.48 90)
-					(length 5.08)
-					(name "PB0"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 -30.48 90)
-					(length 5.08)
-					(name "PB1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 -30.48 90)
-					(length 5.08)
-					(name "PB2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 -30.48 90)
-					(length 5.08)
-					(name "PB10"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -30.48 90)
-					(length 5.08)
-					(name "PB11"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -30.48 90)
-					(length 5.08)
-					(name "PB12"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 -15.24 180)
-					(length 5.08)
-					(name "PB13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 -12.7 180)
-					(length 5.08)
-					(name "PB14"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 -10.16 180)
-					(length 5.08)
-					(name "PB15"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 -7.62 180)
-					(length 5.08)
-					(name "PA8"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "PA9"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "PC6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "PC7"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 2.54 180)
-					(length 5.08)
-					(name "PA10"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 5.08 180)
-					(length 5.08)
-					(name "PA11"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 7.62 180)
-					(length 5.08)
-					(name "PA12"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 10.16 180)
-					(length 5.08)
-					(name "PA13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 12.7 180)
-					(length 5.08)
-					(name "PA14"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 27.94 270)
-					(length 5.08)
-					(name "PA15"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 27.94 270)
-					(length 5.08)
-					(name "PD0"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 27.94 270)
-					(length 5.08)
-					(name "PD1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 27.94 270)
-					(length 5.08)
-					(name "PD2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 27.94 270)
-					(length 5.08)
-					(name "PD3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 27.94 270)
-					(length 5.08)
-					(name "PB3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 27.94 270)
-					(length 5.08)
-					(name "PB4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 27.94 270)
-					(length 5.08)
-					(name "PB5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -7.62 27.94 270)
-					(length 5.08)
-					(name "PB6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 27.94 270)
-					(length 5.08)
-					(name "PB7"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 27.94 270)
-					(length 5.08)
-					(name "PB8"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 27.94 270)
-					(length 5.08)
-					(name "PB9"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -22.86 -2.54 0)
-					(length 5.08)
-					(hide yes)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CAN LED Dimmer-eagle-import:RCHIP-0603(1608-METRIC)_"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6380,6 +5389,1259 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CAN_LED_Dimmer-MCU:STM32C552RET6"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 58.42 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "STM32C552RET6"
+				(at 0 55.88 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CAN_LED_Dimmer-layout:LQFP-64_10x10mm_P0.5mm_STM32C552RET6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32c552rc.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "STM32C552RET6 LQFP64; DS14928 Rev3 Fig7 (not alternative J pinout); VCAP requires 2.2uF >=10V ESR<20mOhm at 3MHz"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "STM32C552RET6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "STMicroelectronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "STM32C552RET6_0_1"
+				(rectangle
+					(start -38.1 45.72)
+					(end 38.1 -45.72)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "STM32C552RET6_1_1"
+				(pin bidirectional line
+					(at 43.18 35.56 180)
+					(length 5.08)
+					(name "PE2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 33.02 180)
+					(length 5.08)
+					(name "PC13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 30.48 180)
+					(length 5.08)
+					(name "PC14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 27.94 180)
+					(length 5.08)
+					(name "PC15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 25.4 180)
+					(length 5.08)
+					(name "PH0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 22.86 180)
+					(length 5.08)
+					(name "PH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 20.32 180)
+					(length 5.08)
+					(name "NRST"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 17.78 180)
+					(length 5.08)
+					(name "PC0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 15.24 180)
+					(length 5.08)
+					(name "PC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 12.7 180)
+					(length 5.08)
+					(name "PC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 10.16 180)
+					(length 5.08)
+					(name "PC3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 43.18 7.62 180)
+					(length 5.08)
+					(name "VREF-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 43.18 5.08 180)
+					(length 5.08)
+					(name "VREF+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 35.56 0)
+					(length 5.08)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 33.02 0)
+					(length 5.08)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 30.48 0)
+					(length 5.08)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 27.94 0)
+					(length 5.08)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -50.8 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 50.8 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 25.4 0)
+					(length 5.08)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 22.86 0)
+					(length 5.08)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 20.32 0)
+					(length 5.08)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 17.78 0)
+					(length 5.08)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 2.54 180)
+					(length 5.08)
+					(name "PC4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 0 180)
+					(length 5.08)
+					(name "PC5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -5.08 0)
+					(length 5.08)
+					(name "PB0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -7.62 0)
+					(length 5.08)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -10.16 0)
+					(length 5.08)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -30.48 0)
+					(length 5.08)
+					(name "PB10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 43.18 -2.54 180)
+					(length 5.08)
+					(name "VCAP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -50.8 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 50.8 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -33.02 0)
+					(length 5.08)
+					(name "PB12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -35.56 0)
+					(length 5.08)
+					(name "PB13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -38.1 0)
+					(length 5.08)
+					(name "PB14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -40.64 0)
+					(length 5.08)
+					(name "PB15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -5.08 180)
+					(length 5.08)
+					(name "PC6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -7.62 180)
+					(length 5.08)
+					(name "PC7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -10.16 180)
+					(length 5.08)
+					(name "PC8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -12.7 180)
+					(length 5.08)
+					(name "PC9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 15.24 0)
+					(length 5.08)
+					(name "PA8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 12.7 0)
+					(length 5.08)
+					(name "PA9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 10.16 0)
+					(length 5.08)
+					(name "PA10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 7.62 0)
+					(length 5.08)
+					(name "PA11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 5.08 0)
+					(length 5.08)
+					(name "PA12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 2.54 0)
+					(length 5.08)
+					(name "PA13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -50.8 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 50.8 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 0 0)
+					(length 5.08)
+					(name "PA14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -2.54 0)
+					(length 5.08)
+					(name "PA15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -15.24 180)
+					(length 5.08)
+					(name "PC10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -17.78 180)
+					(length 5.08)
+					(name "PC11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -20.32 180)
+					(length 5.08)
+					(name "PC12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -22.86 180)
+					(length 5.08)
+					(name "PD2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -12.7 0)
+					(length 5.08)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -15.24 0)
+					(length 5.08)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -17.78 0)
+					(length 5.08)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -20.32 0)
+					(length 5.08)
+					(name "PB6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -22.86 0)
+					(length 5.08)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -25.4 180)
+					(length 5.08)
+					(name "PH2/BOOT0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -25.4 0)
+					(length 5.08)
+					(name "PB8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -43.18 -27.94 0)
+					(length 5.08)
+					(name "PB9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -50.8 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 50.8 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 299.72 43.18)
@@ -6472,13 +6734,13 @@
 		(uuid "494db712-e225-43b9-b828-7ce99054b466")
 	)
 	(junction
-		(at 149.86 137.16)
+		(at 135.89 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49d8eaa7-4a28-46ac-ad80-3238337694af")
 	)
 	(junction
-		(at 144.78 116.84)
+		(at 130.81 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a88efd3-8fc2-40f5-9a2d-3e7f4f6c03d4")
@@ -6532,7 +6794,7 @@
 		(uuid "7c3ba12c-76af-4547-97dc-264fd695a923")
 	)
 	(junction
-		(at 162.56 127)
+		(at 148.59 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "819a8ac7-760b-4833-9d79-83fe29e5e34d")
@@ -6556,7 +6818,7 @@
 		(uuid "8ef1f4ca-3a52-4bca-81b9-0ceae0111c11")
 	)
 	(junction
-		(at 162.56 132.08)
+		(at 148.59 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "903e7a48-c0f3-4bde-84b4-939134ae8c36")
@@ -6652,7 +6914,7 @@
 		(uuid "dcfbad73-3c16-45e3-be11-83ef6c3778dc")
 	)
 	(junction
-		(at 132.08 142.24)
+		(at 118.11 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1a45ab2-bbf4-4b85-bdf6-0bb1682d6f0f")
@@ -6664,7 +6926,7 @@
 		(uuid "e1eb384e-3f7a-460c-b15c-145deb7bcd32")
 	)
 	(junction
-		(at 172.72 129.54)
+		(at 158.75 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb246a18-38e4-4ae0-bdc1-280a9eadfe4d")
@@ -6682,7 +6944,7 @@
 		(uuid "ef4751fc-94c5-49a0-92b0-0c3d0806af80")
 	)
 	(junction
-		(at 149.86 147.32)
+		(at 135.89 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f10182db-bd22-4228-ba6f-e68a9dbe1650")
@@ -6732,7 +6994,7 @@
 		(uuid "4c08d494-2613-4b44-97a1-f785fa5f4b63")
 	)
 	(no_connect
-		(at 185.42 124.46)
+		(at 171.45 124.46)
 		(uuid "52d267c1-6f0d-46fc-908b-b8cc8790bebc")
 	)
 	(no_connect
@@ -6796,12 +7058,12 @@
 		(uuid "ef94b586-a3a4-4424-b123-b3dfae99afa8")
 	)
 	(no_connect
-		(at 185.42 127)
+		(at 171.45 127)
 		(uuid "efdc9ba7-e84b-4b30-b907-482e9d72514a")
 	)
 	(wire
 		(pts
-			(xy 154.94 142.24) (xy 154.94 147.32)
+			(xy 140.97 142.24) (xy 140.97 147.32)
 		)
 		(stroke
 			(width 0.1524)
@@ -6861,7 +7123,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 149.86) (xy 185.42 149.86)
+			(xy 148.59 149.86) (xy 171.45 149.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -6911,13 +7173,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 78.74) (xy 198.12 106.68)
+			(xy 154.94 73.66) (xy 195.58 73.66)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "0da7ee9c-7c16-4712-821c-faeafb553863")
+		(uuid "0dac85ff-f532-4b6e-b688-92f2b36ebada")
 	)
 	(wire
 		(pts
@@ -6931,7 +7193,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 104.14) (xy 154.94 104.14)
+			(xy 143.51 104.14) (xy 140.97 104.14)
 		)
 		(stroke
 			(width 0.1524)
@@ -6951,7 +7213,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 210.82) (xy 134.62 210.82)
+			(xy 148.59 210.82) (xy 134.62 210.82)
 		)
 		(stroke
 			(width 0.1524)
@@ -6961,7 +7223,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 106.68) (xy 210.82 101.6)
+			(xy 210.82 104.14) (xy 210.82 99.06)
 		)
 		(stroke
 			(width 0.1524)
@@ -6971,7 +7233,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 106.68) (xy 205.74 58.42)
+			(xy 205.74 104.14) (xy 205.74 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -7031,7 +7293,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 144.78) (xy 180.34 144.78)
+			(xy 171.45 144.78) (xy 166.37 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -7081,7 +7343,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 137.16) (xy 154.94 137.16)
+			(xy 135.89 137.16) (xy 140.97 137.16)
 		)
 		(stroke
 			(width 0.1524)
@@ -7141,7 +7403,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 134.62) (xy 172.72 134.62)
+			(xy 182.88 66.04) (xy 182.88 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "298dc10b-081d-4304-93c9-33818325381e")
+	)
+	(wire
+		(pts
+			(xy 171.45 134.62) (xy 158.75 134.62)
 		)
 		(stroke
 			(width 0.1524)
@@ -7181,7 +7453,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 132.08) (xy 167.64 137.16)
+			(xy 153.67 132.08) (xy 153.67 137.16)
 		)
 		(stroke
 			(width 0.1524)
@@ -7421,7 +7693,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 208.28) (xy 160.02 208.28)
+			(xy 134.62 208.28) (xy 146.05 208.28)
 		)
 		(stroke
 			(width 0.1524)
@@ -7611,7 +7883,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 137.16) (xy 132.08 142.24)
+			(xy 118.11 137.16) (xy 118.11 142.24)
 		)
 		(stroke
 			(width 0.1524)
@@ -7621,7 +7893,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 147.32) (xy 134.62 147.32)
+			(xy 118.11 147.32) (xy 120.65 147.32)
 		)
 		(stroke
 			(width 0.1524)
@@ -7651,7 +7923,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 116.84) (xy 175.26 116.84)
+			(xy 130.81 116.84) (xy 161.29 116.84)
 		)
 		(stroke
 			(width 0.1524)
@@ -7731,7 +8003,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 142.24) (xy 127 142.24)
+			(xy 118.11 142.24) (xy 113.03 142.24)
 		)
 		(stroke
 			(width 0.1524)
@@ -7751,23 +8023,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 132.08) (xy 167.64 132.08)
+			(xy 148.59 132.08) (xy 153.67 132.08)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "719f5600-7d37-4089-aca4-d96dd3979492")
-	)
-	(wire
-		(pts
-			(xy 182.88 76.2) (xy 182.88 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7333b2e3-b34a-408b-bcda-459c142dae91")
 	)
 	(wire
 		(pts
@@ -7801,7 +8063,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 106.68) (xy 208.28 43.18)
+			(xy 208.28 104.14) (xy 208.28 43.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -7851,7 +8113,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 137.16) (xy 149.86 137.16)
+			(xy 125.73 137.16) (xy 135.89 137.16)
 		)
 		(stroke
 			(width 0.1524)
@@ -7861,7 +8123,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 208.28) (xy 160.02 147.32)
+			(xy 146.05 208.28) (xy 146.05 147.32)
 		)
 		(stroke
 			(width 0.1524)
@@ -7891,7 +8153,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 106.68) (xy 193.04 88.9)
+			(xy 193.04 104.14) (xy 193.04 88.9)
 		)
 		(stroke
 			(width 0.1524)
@@ -7901,7 +8163,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 127) (xy 162.56 127)
+			(xy 158.75 127) (xy 148.59 127)
 		)
 		(stroke
 			(width 0.1524)
@@ -7911,7 +8173,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 147.32) (xy 160.02 147.32)
+			(xy 171.45 147.32) (xy 146.05 147.32)
 		)
 		(stroke
 			(width 0.1524)
@@ -7951,7 +8213,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 137.16) (xy 132.08 137.16)
+			(xy 120.65 137.16) (xy 118.11 137.16)
 		)
 		(stroke
 			(width 0.1524)
@@ -8001,7 +8263,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 129.54) (xy 172.72 129.54)
+			(xy 171.45 129.54) (xy 158.75 129.54)
 		)
 		(stroke
 			(width 0.1524)
@@ -8061,16 +8323,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 73.66) (xy 154.94 73.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8d5fc700-3eed-4e9e-947a-c3805e29329e")
-	)
-	(wire
-		(pts
 			(xy 248.92 124.46) (xy 228.6 124.46)
 		)
 		(stroke
@@ -8091,7 +8343,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 106.68) (xy 200.66 76.2)
+			(xy 200.66 104.14) (xy 200.66 76.2)
 		)
 		(stroke
 			(width 0.1524)
@@ -8231,7 +8483,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 106.68) (xy 218.44 101.6)
+			(xy 218.44 104.14) (xy 218.44 99.06)
 		)
 		(stroke
 			(width 0.1524)
@@ -8248,6 +8500,16 @@
 			(type solid)
 		)
 		(uuid "9f7639f5-d089-4ad0-933b-736ed3645717")
+	)
+	(wire
+		(pts
+			(xy 198.12 78.74) (xy 198.12 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a1688233-f2bc-4c08-aecb-0fc3851d9530")
 	)
 	(wire
 		(pts
@@ -8301,7 +8563,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 137.16) (xy 154.94 139.7)
+			(xy 140.97 137.16) (xy 140.97 139.7)
 		)
 		(stroke
 			(width 0.1524)
@@ -8351,7 +8613,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 147.32) (xy 149.86 147.32)
+			(xy 140.97 147.32) (xy 135.89 147.32)
 		)
 		(stroke
 			(width 0.1524)
@@ -8391,7 +8653,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 106.68) (xy 203.2 73.66)
+			(xy 203.2 104.14) (xy 203.2 73.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -8451,7 +8713,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 134.62) (xy 172.72 129.54)
+			(xy 158.75 134.62) (xy 158.75 129.54)
 		)
 		(stroke
 			(width 0.1524)
@@ -8491,7 +8753,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 210.82) (xy 162.56 149.86)
+			(xy 148.59 210.82) (xy 148.59 149.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -8731,7 +8993,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 147.32) (xy 139.7 147.32)
+			(xy 135.89 147.32) (xy 125.73 147.32)
 		)
 		(stroke
 			(width 0.1524)
@@ -8761,7 +9023,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 132.08) (xy 185.42 132.08)
+			(xy 161.29 132.08) (xy 171.45 132.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -8851,7 +9113,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 121.92) (xy 182.88 104.14)
+			(xy 168.91 121.92) (xy 168.91 104.14)
 		)
 		(stroke
 			(width 0.1524)
@@ -8901,7 +9163,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 106.68) (xy 220.98 101.6)
+			(xy 220.98 104.14) (xy 220.98 99.06)
 		)
 		(stroke
 			(width 0.1524)
@@ -8911,7 +9173,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 129.54) (xy 172.72 127)
+			(xy 158.75 129.54) (xy 158.75 127)
 		)
 		(stroke
 			(width 0.1524)
@@ -8961,7 +9223,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 106.68) (xy 195.58 73.66)
+			(xy 195.58 104.14) (xy 195.58 73.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -8981,7 +9243,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 106.68) (xy 213.36 101.6)
+			(xy 213.36 104.14) (xy 213.36 99.06)
 		)
 		(stroke
 			(width 0.1524)
@@ -9031,7 +9293,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 139.7) (xy 185.42 139.7)
+			(xy 140.97 139.7) (xy 171.45 139.7)
 		)
 		(stroke
 			(width 0.1524)
@@ -9081,7 +9343,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 116.84) (xy 175.26 132.08)
+			(xy 161.29 116.84) (xy 161.29 132.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -9101,7 +9363,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 104.14) (xy 167.64 104.14)
+			(xy 156.21 104.14) (xy 153.67 104.14)
 		)
 		(stroke
 			(width 0.1524)
@@ -9121,7 +9383,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 121.92) (xy 182.88 121.92)
+			(xy 171.45 121.92) (xy 168.91 121.92)
 		)
 		(stroke
 			(width 0.1524)
@@ -9141,7 +9403,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 142.24) (xy 132.08 147.32)
+			(xy 118.11 142.24) (xy 118.11 147.32)
 		)
 		(stroke
 			(width 0.1524)
@@ -9161,7 +9423,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 142.24) (xy 154.94 142.24)
+			(xy 171.45 142.24) (xy 140.97 142.24)
 		)
 		(stroke
 			(width 0.1524)
@@ -9181,7 +9443,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 106.68) (xy 215.9 101.6)
+			(xy 215.9 104.14) (xy 215.9 99.06)
 		)
 		(stroke
 			(width 0.1524)
@@ -9191,7 +9453,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 137.16) (xy 185.42 137.16)
+			(xy 153.67 137.16) (xy 171.45 137.16)
 		)
 		(stroke
 			(width 0.1524)
@@ -9211,7 +9473,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 104.14) (xy 175.26 104.14)
+			(xy 168.91 104.14) (xy 161.29 104.14)
 		)
 		(stroke
 			(width 0.1524)
@@ -9250,7 +9512,7 @@
 		(uuid "0e443738-ae84-49eb-a276-0baf35ff00d8")
 	)
 	(label "DIAG_LED"
-		(at 182.88 119.38 90)
+		(at 168.91 119.38 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9270,7 +9532,7 @@
 		(uuid "219e3b65-26fd-4f72-a82c-8d39f3d1fc79")
 	)
 	(label "GPIO_BTN4"
-		(at 193.04 106.68 90)
+		(at 193.04 104.14 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9280,7 +9542,7 @@
 		(uuid "21ff0867-4fd0-423e-be43-8c7b6e0d8973")
 	)
 	(label "BLE_MODE_0"
-		(at 218.44 106.68 90)
+		(at 218.44 104.14 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9300,7 +9562,7 @@
 		(uuid "2b757286-ac43-499a-98a2-f4c7411ab400")
 	)
 	(label "I2C1_SCL"
-		(at 200.66 104.14 90)
+		(at 200.66 102.87 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9350,7 +9612,7 @@
 		(uuid "73264b9a-7b0f-46a2-a57e-e55b1a740669")
 	)
 	(label "EE_WC"
-		(at 195.58 104.14 90)
+		(at 195.58 101.6 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9400,7 +9662,7 @@
 		(uuid "976b8813-35b8-430a-bcea-8ac848792970")
 	)
 	(label "BLE_MODE_1"
-		(at 215.9 106.68 90)
+		(at 215.9 104.14 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9420,7 +9682,7 @@
 		(uuid "a04626fe-2422-43f2-a12e-536334dff4d7")
 	)
 	(label "GPIO_BTN1"
-		(at 208.28 106.68 90)
+		(at 208.28 104.14 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9450,7 +9712,7 @@
 		(uuid "bb234b55-1204-411b-ac14-b0911159130d")
 	)
 	(label "NRST_U3"
-		(at 180.34 144.78 180)
+		(at 166.37 144.78 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9460,7 +9722,7 @@
 		(uuid "bde09f94-836c-4dbb-9fed-a3af79420c1f")
 	)
 	(label "GPIO_BTN3"
-		(at 203.2 106.68 90)
+		(at 203.2 104.14 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9540,7 +9802,7 @@
 		(uuid "f16e2a05-4dfd-416e-8a40-2c6072b5fa81")
 	)
 	(label "GPIO_BTN2"
-		(at 205.74 106.68 90)
+		(at 205.74 104.14 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9729,7 +9991,7 @@
 	)
 	(global_label "IN0_B"
 		(shape bidirectional)
-		(at 210.82 101.6 90)
+		(at 210.82 99.06 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9739,7 +10001,7 @@
 		)
 		(uuid "45475853-1035-4d5c-8ea6-d90f46df463d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.82 92.311 90)
+			(at 210.82 89.771 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9753,7 +10015,7 @@
 	)
 	(global_label "DEN_B"
 		(shape bidirectional)
-		(at 220.98 102.87 90)
+		(at 220.98 100.33 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9763,7 +10025,7 @@
 		)
 		(uuid "545e770e-5658-40e4-bcf8-3c0900d15d25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 92.9883 90)
+			(at 220.98 90.4483 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9969,7 +10231,7 @@
 	)
 	(global_label "IN1_B"
 		(shape bidirectional)
-		(at 213.36 101.6 90)
+		(at 213.36 99.06 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9979,7 +10241,7 @@
 		)
 		(uuid "d1f1c21a-1c0a-41f5-b6ae-1edecc0b50fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.36 92.311 90)
+			(at 213.36 89.771 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9988,6 +10250,296 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CAN_LED_Dimmer-MCU:STM32C552RET6")
+		(at 492.76 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "005802c6-006b-467c-97b5-9a3ca570c865")
+		(property "Reference" "U3"
+			(at 502.3486 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STM32C552RET6"
+			(at 502.3486 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAN_LED_Dimmer-layout:LQFP-64_10x10mm_P0.5mm_STM32C552RET6"
+			(at 492.76 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32c552rc.pdf"
+			(at 492.76 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STM32C552RET6 LQFP64; DS14928 Rev3 Fig7 (not alternative J pinout); VCAP requires 2.2uF >=10V ESR<20mOhm at 3MHz"
+			(at 492.76 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "STM32C552RET6"
+			(at 492.76 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 492.76 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "44"
+			(uuid "1529fc84-8ab1-4001-83f1-ba8a126f17ed")
+		)
+		(pin "33"
+			(uuid "00546c23-1534-439c-a471-92dfeb065330")
+		)
+		(pin "37"
+			(uuid "c8fec683-da27-49a5-aee9-821da4929df4")
+		)
+		(pin "46"
+			(uuid "f544bab2-3ec8-4383-9883-4f4a96bcabb3")
+		)
+		(pin "40"
+			(uuid "db1d87e9-165f-47bb-ae82-1172623bb1de")
+		)
+		(pin "38"
+			(uuid "07c0b050-1f08-4de3-9fb8-e022fe5319fe")
+		)
+		(pin "45"
+			(uuid "e9170f80-22f0-4871-bcc7-b20c25eaaa5b")
+		)
+		(pin "32"
+			(uuid "0edfd2bb-ddb3-4c67-94de-cf9e46f62157")
+		)
+		(pin "30"
+			(uuid "86bf7b8b-79c4-4563-b1fe-19fd937bdc38")
+		)
+		(pin "43"
+			(uuid "566bba4a-0879-43e9-92a7-3c5c7de54da6")
+		)
+		(pin "47"
+			(uuid "18ca0dec-d7cb-4468-ace6-322f3d0d8657")
+		)
+		(pin "23"
+			(uuid "75625fde-f984-4511-98d4-cb5c6112ec77")
+		)
+		(pin "42"
+			(uuid "c535a21b-d23b-4503-9268-3c1a1e72d7f0")
+		)
+		(pin "31"
+			(uuid "0111cd77-9d62-4aae-ac4b-89351446e7fc")
+		)
+		(pin "34"
+			(uuid "8db8ee8d-ad11-4da4-8f8e-5ae26bb59b0c")
+		)
+		(pin "36"
+			(uuid "fb410da9-8fcd-47ac-b130-5f34ad23867a")
+		)
+		(pin "24"
+			(uuid "8ae9ecda-3fac-4bc3-8947-cd7152ca53e8")
+		)
+		(pin "29"
+			(uuid "f047b0b9-cc77-4c58-9ba3-0bb5bc85fed4")
+		)
+		(pin "39"
+			(uuid "5bfc78b7-86b6-4211-8fc3-777b09eb38c9")
+		)
+		(pin "26"
+			(uuid "c2e52cf0-5996-4e85-82e9-2967264484da")
+		)
+		(pin "25"
+			(uuid "ad285d4b-e18f-45ab-9cb7-052220916631")
+		)
+		(pin "27"
+			(uuid "77d35fd8-ecc0-4973-bf4d-39deb8cb829d")
+		)
+		(pin "28"
+			(uuid "a97aa4e3-3aa8-4d1c-ae5d-a8e10445b934")
+		)
+		(pin "41"
+			(uuid "2293d46f-b384-4000-a0f8-6fe906a8332a")
+		)
+		(pin "48"
+			(uuid "cbfb7d92-d27a-4a16-9c8a-234aa24475bf")
+		)
+		(pin "35"
+			(uuid "aedb52c7-7865-49c0-a6a0-3b4cf0c0829e")
+		)
+		(pin "51"
+			(uuid "9f7184a7-36e4-49b4-b5f7-62e2e86dfbc4")
+		)
+		(pin "60"
+			(uuid "849b6c14-8d43-4123-8666-b48620f75225")
+		)
+		(pin "64"
+			(uuid "c5f342fd-1630-4a91-8773-214e33f314b9")
+		)
+		(pin "58"
+			(uuid "31ae7bfe-e390-40be-9f02-f382dd748cc0")
+		)
+		(pin "52"
+			(uuid "1664149f-d7d3-4aea-9ab2-e40cd9c2d226")
+		)
+		(pin "61"
+			(uuid "c676195c-cea0-4e60-b539-b681171190dd")
+		)
+		(pin "56"
+			(uuid "aa0e64ae-aaa6-4113-92c2-fcdec1cafe79")
+		)
+		(pin "57"
+			(uuid "5ccc595c-9d7e-47f1-922c-53dbc5668612")
+		)
+		(pin "54"
+			(uuid "8042f4eb-ec61-4a9a-87e3-7ab72afef81a")
+		)
+		(pin "50"
+			(uuid "33575e47-1dfd-4fe8-b5b7-efa1429256ee")
+		)
+		(pin "59"
+			(uuid "2788cc03-62d4-4019-8440-d84ecdd75f3b")
+		)
+		(pin "63"
+			(uuid "5283a634-7e49-4644-b170-5c3389dbf9f2")
+		)
+		(pin "62"
+			(uuid "0fbfc6d5-3877-468a-bdb6-1b1fe991933a")
+		)
+		(pin "55"
+			(uuid "da61cc80-f7a0-462f-ae12-a13fc7eb9b66")
+		)
+		(pin "53"
+			(uuid "6fa93aa4-b29c-4b18-9961-bd926fa6b282")
+		)
+		(pin "49"
+			(uuid "a2893742-a8b2-4492-89dd-5bee689e4cba")
+		)
+		(pin "4"
+			(uuid "b229d8b6-7651-43fd-ba55-40a602931fdd")
+		)
+		(pin "2"
+			(uuid "aa2187d4-dcce-47c7-ad22-68f43ccb18ba")
+		)
+		(pin "3"
+			(uuid "cac9ee1d-9ccb-4e6b-abd6-e045651dd7f0")
+		)
+		(pin "8"
+			(uuid "3b9e6ff2-d229-425a-b5d3-6b97c06fc37c")
+		)
+		(pin "1"
+			(uuid "9ec9546f-a0ae-4df5-b14f-cd303af4a61f")
+		)
+		(pin "11"
+			(uuid "5700e45e-0445-4c73-805b-ec670191c361")
+		)
+		(pin "16"
+			(uuid "5f022fbb-4136-4681-8b1a-e7c463799092")
+		)
+		(pin "21"
+			(uuid "98c6895b-b414-4491-9e85-06f071b7c7d3")
+		)
+		(pin "12"
+			(uuid "527afd91-4dca-4493-9ebb-a48569e967fd")
+		)
+		(pin "17"
+			(uuid "982b2004-48ec-4b14-98d3-6464c88f60ca")
+		)
+		(pin "15"
+			(uuid "8639fd32-4c09-480a-aebf-6bc626145bd5")
+		)
+		(pin "5"
+			(uuid "256a3e29-6cc3-47f2-a850-88edec091a26")
+		)
+		(pin "7"
+			(uuid "185ad219-5bf2-4915-bd01-1c81d4043f3c")
+		)
+		(pin "22"
+			(uuid "6af424b3-2f0d-40b4-95c7-a8225f0b3f76")
+		)
+		(pin "19"
+			(uuid "a479fe4e-36de-4e8a-ba72-679e926b22ca")
+		)
+		(pin "13"
+			(uuid "fe4eb335-b6d8-4b2e-abab-c4e624d3c939")
+		)
+		(pin "18"
+			(uuid "c5fd39b5-7821-4091-8ca2-f4566e5445ce")
+		)
+		(pin "9"
+			(uuid "a070998d-92de-445b-b53b-790b5d3df917")
+		)
+		(pin "20"
+			(uuid "7745beb1-d2f5-434f-a853-8b2139431fd2")
+		)
+		(pin "6"
+			(uuid "a4ccbf30-f6e5-4f37-989b-2e80271f90f2")
+		)
+		(pin "14"
+			(uuid "2ef8de7b-5681-4d84-a7bf-88834b348f26")
+		)
+		(pin "10"
+			(uuid "1e350c28-4d57-4263-aac6-4394ee963bb6")
+		)
+		(instances
+			(project "CAN LED Dimmer"
+				(path "/a168f1dc-c10d-4e08-bf2f-acc100395e2c/dafd71c7-cbce-4965-a265-1c9f6ed6f473"
+					(reference "U3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -10414,250 +10966,6 @@
 			(project "CAN LED Dimmer"
 				(path "/a168f1dc-c10d-4e08-bf2f-acc100395e2c/dafd71c7-cbce-4965-a265-1c9f6ed6f473"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CAN LED Dimmer-eagle-import:IC_STM32G0B1CEU6")
-		(at 208.28 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1118b4c7-c337-4c34-8715-9a79c17ae301")
-		(property "Reference" "U3"
-			(at 223.52 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "STM32G0B1CEU6"
-			(at 208.28 149.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "CAN_LED_Dimmer-layout:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_U3"
-			(at 208.28 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1ce.pdf"
-			(at 208.28 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "ST"
-			(at 223.52 146.812 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "STM32G0B1CEU6"
-			(at 223.52 148.336 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "5edfed55-7312-450a-ae04-665565ad0ba8")
-		)
-		(pin "9"
-			(uuid "ee3389d2-487c-4b26-9af7-455345705938")
-		)
-		(pin "23"
-			(uuid "2809b759-2d96-45c9-9c43-6b5311dbafcd")
-		)
-		(pin "16"
-			(uuid "c659c183-6b0e-405d-8fa6-22784f41bb40")
-		)
-		(pin "10"
-			(uuid "4a3769d0-798a-468a-8cce-4ed67e12e5c5")
-		)
-		(pin "25"
-			(uuid "3e758d33-7894-4072-b93d-44f94b265c25")
-		)
-		(pin "15"
-			(uuid "e844ea8a-29bf-4730-965c-3976a27fc00f")
-		)
-		(pin "24"
-			(uuid "9f7a4828-756f-4090-bd30-9d68d60ae5fa")
-		)
-		(pin "11"
-			(uuid "8f26ca8e-41ba-4320-9537-df51cfdfa505")
-		)
-		(pin "21"
-			(uuid "a34e6263-d64d-4df5-868e-dc444cd3a2c9")
-		)
-		(pin "3"
-			(uuid "aa4f722b-f05b-4fbe-ad3f-74be4851b90f")
-		)
-		(pin "29"
-			(uuid "2c7fa373-f406-4c6f-9b7d-490fa2a6c210")
-		)
-		(pin "4"
-			(uuid "bc4f7856-1b23-4c74-a7c1-3c3cb42a557d")
-		)
-		(pin "31"
-			(uuid "a5630bda-c3b5-4a3f-9e37-465702e03aab")
-		)
-		(pin "18"
-			(uuid "789b470f-d632-44b3-9cb2-2d0e380bee37")
-		)
-		(pin "28"
-			(uuid "13ed0aed-6251-4b3b-94a8-9ada5f6433fa")
-		)
-		(pin "12"
-			(uuid "4167f06c-4898-4569-a7ba-8bef1436c2b0")
-		)
-		(pin "17"
-			(uuid "4a2b71b5-280e-4c3b-b811-03ccea0ef6b3")
-		)
-		(pin "1"
-			(uuid "4750040b-d7cd-4087-899a-423f1b7e8289")
-		)
-		(pin "27"
-			(uuid "11667090-7e30-4888-8289-146f11a8de12")
-		)
-		(pin "7"
-			(uuid "89061af1-3d42-438f-97a4-deb91357abb5")
-		)
-		(pin "5"
-			(uuid "c791f17c-21d2-448e-bf78-1a15cefbd030")
-		)
-		(pin "20"
-			(uuid "cb99c1e1-24dd-4ef0-8f81-88220df6446f")
-		)
-		(pin "6"
-			(uuid "e9eba083-71ed-4184-b8e8-4da50ec55d89")
-		)
-		(pin "32"
-			(uuid "8dc8b0e7-2a71-41f4-9d41-19488f3d44b9")
-		)
-		(pin "22"
-			(uuid "a7ea8dda-6fe2-422f-9cbc-c41494d0aa58")
-		)
-		(pin "13"
-			(uuid "c8f5b2e7-5153-4700-b830-b0172775a81a")
-		)
-		(pin "26"
-			(uuid "c5b9e0bd-89f0-4cc9-b3e0-e21ce1308f06")
-		)
-		(pin "8"
-			(uuid "8be0d8e4-aad9-432c-a0b0-9f9239b70cbd")
-		)
-		(pin "30"
-			(uuid "35616c81-610f-4cde-9720-217566e9cd2b")
-		)
-		(pin "19"
-			(uuid "28a322ad-eff8-4da4-9f40-03f47e17edad")
-		)
-		(pin "2"
-			(uuid "74b91a9e-9d1f-4cfd-bebc-b8e9faa9a71f")
-		)
-		(pin "39"
-			(uuid "26e98e4d-f1ed-4843-9adf-dd448a18357e")
-		)
-		(pin "38"
-			(uuid "981328d2-7090-4803-a81e-cea65988c535")
-		)
-		(pin "47"
-			(uuid "e4913d75-e54e-4fb6-a13c-c35f9344951d")
-		)
-		(pin "46"
-			(uuid "6f5a405e-dd90-4378-9a42-0e63d439162d")
-		)
-		(pin "42"
-			(uuid "7ac0129b-e7ad-4c8c-aeaa-7f6c84c37913")
-		)
-		(pin "41"
-			(uuid "664bfc63-2099-4fe7-b0d0-b9ce399c943d")
-		)
-		(pin "45"
-			(uuid "281ca35c-ae87-465c-bf83-36912fb78188")
-		)
-		(pin "34"
-			(uuid "81e0a36c-4bd0-4722-a847-30c997f7c161")
-		)
-		(pin "37"
-			(uuid "b8bc5ff3-fae6-411e-ac9e-31ff68ed5b94")
-		)
-		(pin "48"
-			(uuid "b72f88a9-fb65-4c59-b74c-1cc6a449630d")
-		)
-		(pin "35"
-			(uuid "dfa352bd-7fe2-4997-952c-b62f6658715b")
-		)
-		(pin "36"
-			(uuid "4d660c18-0e6b-46b7-8105-1aca2de59e36")
-		)
-		(pin "33"
-			(uuid "7a252b39-b01d-4fc5-b8d9-891028f5c7e7")
-		)
-		(pin "43"
-			(uuid "790ce38c-3c1a-4534-a74a-3483fa3b5181")
-		)
-		(pin "44"
-			(uuid "7156c0b6-0019-4a49-b85f-cc961956fc06")
-		)
-		(pin "40"
-			(uuid "62c1efff-665e-43fd-82a4-96e1feb2c786")
-		)
-		(pin "49"
-			(uuid "362ca186-c3ab-436c-a0d6-6fc6ee643715")
-		)
-		(instances
-			(project "CAN LED Dimmer"
-				(path "/a168f1dc-c10d-4e08-bf2f-acc100395e2c/dafd71c7-cbce-4965-a265-1c9f6ed6f473"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -11452,7 +11760,7 @@
 	)
 	(symbol
 		(lib_id "CAN LED Dimmer-eagle-import:GND")
-		(at 154.94 106.68 0)
+		(at 140.97 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11462,7 +11770,7 @@
 		(dnp no)
 		(uuid "25946804-3f10-4eed-9110-5ef93a312549")
 		(property "Reference" "#SUPPLY61"
-			(at 154.94 106.68 0)
+			(at 140.97 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11473,7 +11781,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 109.22 0)
+			(at 140.97 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11484,7 +11792,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 106.68 0)
+			(at 140.97 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11495,7 +11803,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 106.68 0)
+			(at 140.97 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11506,7 +11814,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 106.68 0)
+			(at 140.97 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11517,7 +11825,7 @@
 			)
 		)
 		(property "CATEGORY" "Supply"
-			(at 154.94 112.268 0)
+			(at 140.97 112.268 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11744,7 +12052,7 @@
 	)
 	(symbol
 		(lib_id "CAN LED Dimmer-eagle-import:CCHIP-0603(1608-METRIC)_")
-		(at 162.56 129.54 90)
+		(at 148.59 129.54 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11754,7 +12062,7 @@
 		(dnp no)
 		(uuid "2bab9925-d7da-4a59-909f-477c1625dfe0")
 		(property "Reference" "C16"
-			(at 160.02 129.54 0)
+			(at 146.05 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11765,7 +12073,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 168.402 130.302 90)
+			(at 154.432 130.302 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11776,7 +12084,7 @@
 			)
 		)
 		(property "Footprint" "CAN_LED_Dimmer-layout:CAPC1608X85_C16"
-			(at 162.56 129.54 0)
+			(at 148.59 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11787,7 +12095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 129.54 0)
+			(at 148.59 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11798,7 +12106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 129.54 0)
+			(at 148.59 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11809,7 +12117,7 @@
 			)
 		)
 		(property "CATEGORY" "Capacitor"
-			(at 162.56 146.304 0)
+			(at 148.59 146.304 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11820,7 +12128,7 @@
 			)
 		)
 		(property "PACKAGE_SIZE" "0603"
-			(at 162.56 147.828 0)
+			(at 148.59 147.828 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11831,7 +12139,7 @@
 			)
 		)
 		(property "PACKAGE_TYPE" "Surface Mount"
-			(at 162.56 149.352 0)
+			(at 148.59 149.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11842,7 +12150,7 @@
 			)
 		)
 		(property "SUBCATEGORY" "Ceramic Capacitors"
-			(at 162.56 150.876 0)
+			(at 148.59 150.876 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11853,7 +12161,7 @@
 			)
 		)
 		(property "TYPE" "MLCC"
-			(at 162.56 152.4 0)
+			(at 148.59 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12189,7 +12497,7 @@
 	)
 	(symbol
 		(lib_id "CAN LED Dimmer-eagle-import:VCC")
-		(at 144.78 116.84 0)
+		(at 130.81 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12199,7 +12507,7 @@
 		(dnp no)
 		(uuid "4631e9af-aa71-4c5f-9f8e-55d975cafb22")
 		(property "Reference" "#SUPPLY55"
-			(at 144.78 116.84 0)
+			(at 130.81 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12210,7 +12518,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 144.78 111.76 0)
+			(at 130.81 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12221,7 +12529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 116.84 0)
+			(at 130.81 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12232,7 +12540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 116.84 0)
+			(at 130.81 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12243,7 +12551,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 116.84 0)
+			(at 130.81 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12254,7 +12562,7 @@
 			)
 		)
 		(property "CATEGORY" "Supply"
-			(at 144.78 119.888 0)
+			(at 130.81 119.888 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12617,7 +12925,7 @@
 	)
 	(symbol
 		(lib_id "CAN LED Dimmer-eagle-import:CHIP-FLAT-B_0603-0.35MM")
-		(at 172.72 104.14 180)
+		(at 158.75 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12627,7 +12935,7 @@
 		(dnp no)
 		(uuid "57887eed-48bc-454f-a2ef-f19f9afe92e0")
 		(property "Reference" "D17"
-			(at 172.72 106.68 0)
+			(at 158.75 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12638,7 +12946,7 @@
 			)
 		)
 		(property "Value" "CHIP-FLAT-B_0603-0.35MM"
-			(at 172.72 96.52 0)
+			(at 158.75 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12648,7 +12956,7 @@
 			)
 		)
 		(property "Footprint" "CAN_LED_Dimmer-layout:LEDC1608X35N_FLAT-B_D17"
-			(at 172.72 104.14 0)
+			(at 158.75 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12659,7 +12967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 104.14 0)
+			(at 158.75 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12670,7 +12978,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 104.14 0)
+			(at 158.75 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12681,7 +12989,7 @@
 			)
 		)
 		(property "CATEGORY" "LED"
-			(at 172.72 117.348 0)
+			(at 158.75 117.348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12692,7 +13000,7 @@
 			)
 		)
 		(property "COLOR" "Blue"
-			(at 172.72 118.872 0)
+			(at 158.75 118.872 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12703,7 +13011,7 @@
 			)
 		)
 		(property "PACKAGE_SIZE" "0603"
-			(at 172.72 120.396 0)
+			(at 158.75 120.396 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12714,7 +13022,7 @@
 			)
 		)
 		(property "SUBCATEGORY" "Chip LED"
-			(at 172.72 121.92 0)
+			(at 158.75 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12725,7 +13033,7 @@
 			)
 		)
 		(property "TYPE" "Square with Flat Top"
-			(at 172.72 123.444 0)
+			(at 158.75 123.444 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12736,7 +13044,7 @@
 			)
 		)
 		(property "PACKAGE_TYPE" "Surface Mount"
-			(at 172.72 124.968 0)
+			(at 158.75 124.968 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12763,7 +13071,7 @@
 	)
 	(symbol
 		(lib_id "CAN LED Dimmer-eagle-import:CCHIP-0603(1608-METRIC)_")
-		(at 137.16 147.32 0)
+		(at 123.19 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12773,7 +13081,7 @@
 		(dnp no)
 		(uuid "5881a7f8-0962-4ac9-9900-4394d3433684")
 		(property "Reference" "C4"
-			(at 137.16 144.78 0)
+			(at 123.19 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12784,7 +13092,7 @@
 			)
 		)
 		(property "Value" "27pF"
-			(at 137.16 149.86 0)
+			(at 123.19 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12795,7 +13103,7 @@
 			)
 		)
 		(property "Footprint" "CAN_LED_Dimmer-layout:CAPC1608X85_C4"
-			(at 137.16 147.32 0)
+			(at 123.19 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12806,7 +13114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 147.32 0)
+			(at 123.19 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12817,7 +13125,7 @@
 			)
 		)
 		(property "Description" "C0G 50V 5%; HCI crystal CL=18pF, assumed effective stray 4.5pF; verify oscillator on prototype"
-			(at 137.16 147.32 0)
+			(at 123.19 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12828,7 +13136,7 @@
 			)
 		)
 		(property "CATEGORY" "Capacitor"
-			(at 137.16 164.084 0)
+			(at 123.19 164.084 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12839,7 +13147,7 @@
 			)
 		)
 		(property "PACKAGE_SIZE" "0603"
-			(at 137.16 165.608 0)
+			(at 123.19 165.608 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12850,7 +13158,7 @@
 			)
 		)
 		(property "PACKAGE_TYPE" "Surface Mount"
-			(at 137.16 167.132 0)
+			(at 123.19 167.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12861,7 +13169,7 @@
 			)
 		)
 		(property "SUBCATEGORY" "Ceramic Capacitors"
-			(at 137.16 168.656 0)
+			(at 123.19 168.656 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12872,7 +13180,7 @@
 			)
 		)
 		(property "TYPE" "MLCC"
-			(at 137.16 170.18 0)
+			(at 123.19 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12883,7 +13191,7 @@
 			)
 		)
 		(property "MPN" "CL10C270JB8NNNC"
-			(at 137.16 147.32 0)
+			(at 123.19 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13046,7 +13354,7 @@
 	)
 	(symbol
 		(lib_id "CAN LED Dimmer-eagle-import:RCHIP-0603(1608-METRIC)_")
-		(at 162.56 104.14 180)
+		(at 148.59 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13056,7 +13364,7 @@
 		(dnp no)
 		(uuid "5eef943a-44cc-4692-a96d-915e705b9711")
 		(property "Reference" "R36"
-			(at 162.56 106.68 0)
+			(at 148.59 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13067,7 +13375,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 162.56 101.6 0)
+			(at 148.59 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13078,7 +13386,7 @@
 			)
 		)
 		(property "Footprint" "CAN_LED_Dimmer-layout:RESC1608X60_R36"
-			(at 162.56 104.14 0)
+			(at 148.59 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13089,7 +13397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 104.14 0)
+			(at 148.59 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13100,7 +13408,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 104.14 0)
+			(at 148.59 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13111,7 +13419,7 @@
 			)
 		)
 		(property "CATEGORY" "Resistors"
-			(at 162.56 117.856 0)
+			(at 148.59 117.856 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13122,7 +13430,7 @@
 			)
 		)
 		(property "PACKAGE_SIZE" "0603"
-			(at 162.56 119.38 0)
+			(at 148.59 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13133,7 +13441,7 @@
 			)
 		)
 		(property "PACKAGE_TYPE" "Surface Mount"
-			(at 162.56 120.904 0)
+			(at 148.59 120.904 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14604,7 +14912,7 @@
 	)
 	(symbol
 		(lib_id "CAN LED Dimmer-eagle-import:CCHIP-0603(1608-METRIC)_")
-		(at 137.16 137.16 0)
+		(at 123.19 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14614,7 +14922,7 @@
 		(dnp no)
 		(uuid "8b5ef641-9a27-4b3d-aec9-cda6cd9cd92a")
 		(property "Reference" "C3"
-			(at 137.16 134.62 0)
+			(at 123.19 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14625,7 +14933,7 @@
 			)
 		)
 		(property "Value" "27pF"
-			(at 137.16 139.7 0)
+			(at 123.19 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14636,7 +14944,7 @@
 			)
 		)
 		(property "Footprint" "CAN_LED_Dimmer-layout:CAPC1608X85_C3"
-			(at 137.16 137.16 0)
+			(at 123.19 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14647,7 +14955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 137.16 0)
+			(at 123.19 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14658,7 +14966,7 @@
 			)
 		)
 		(property "Description" "C0G 50V 5%; HCI crystal CL=18pF, assumed effective stray 4.5pF; verify oscillator on prototype"
-			(at 137.16 137.16 0)
+			(at 123.19 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14669,7 +14977,7 @@
 			)
 		)
 		(property "CATEGORY" "Capacitor"
-			(at 137.16 153.924 0)
+			(at 123.19 153.924 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14680,7 +14988,7 @@
 			)
 		)
 		(property "PACKAGE_SIZE" "0603"
-			(at 137.16 155.448 0)
+			(at 123.19 155.448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14691,7 +14999,7 @@
 			)
 		)
 		(property "PACKAGE_TYPE" "Surface Mount"
-			(at 137.16 156.972 0)
+			(at 123.19 156.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14702,7 +15010,7 @@
 			)
 		)
 		(property "SUBCATEGORY" "Ceramic Capacitors"
-			(at 137.16 158.496 0)
+			(at 123.19 158.496 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14713,7 +15021,7 @@
 			)
 		)
 		(property "TYPE" "MLCC"
-			(at 137.16 160.02 0)
+			(at 123.19 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14724,7 +15032,7 @@
 			)
 		)
 		(property "MPN" "CL10C270JB8NNNC"
-			(at 137.16 137.16 0)
+			(at 123.19 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14751,7 +15059,7 @@
 	)
 	(symbol
 		(lib_id "CAN LED Dimmer-eagle-import:CCHIP-0603(1608-METRIC)_")
-		(at 144.78 119.38 90)
+		(at 130.81 119.38 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14761,7 +15069,7 @@
 		(dnp no)
 		(uuid "8cf7f73f-6d54-46fc-87b6-5c1d783de89f")
 		(property "Reference" "C17"
-			(at 142.24 119.38 0)
+			(at 128.27 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14772,7 +15080,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 150.622 120.142 90)
+			(at 136.652 120.142 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14783,7 +15091,7 @@
 			)
 		)
 		(property "Footprint" "CAN_LED_Dimmer-layout:CAPC1608X85_C17"
-			(at 144.78 119.38 0)
+			(at 130.81 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14794,7 +15102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 119.38 0)
+			(at 130.81 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14805,7 +15113,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 119.38 0)
+			(at 130.81 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14816,7 +15124,7 @@
 			)
 		)
 		(property "CATEGORY" "Capacitor"
-			(at 144.78 136.144 0)
+			(at 130.81 136.144 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14827,7 +15135,7 @@
 			)
 		)
 		(property "PACKAGE_SIZE" "0603"
-			(at 144.78 137.668 0)
+			(at 130.81 137.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14838,7 +15146,7 @@
 			)
 		)
 		(property "PACKAGE_TYPE" "Surface Mount"
-			(at 144.78 139.192 0)
+			(at 130.81 139.192 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14849,7 +15157,7 @@
 			)
 		)
 		(property "SUBCATEGORY" "Ceramic Capacitors"
-			(at 144.78 140.716 0)
+			(at 130.81 140.716 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14860,7 +15168,7 @@
 			)
 		)
 		(property "TYPE" "MLCC"
-			(at 144.78 142.24 0)
+			(at 130.81 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14887,7 +15195,7 @@
 	)
 	(symbol
 		(lib_id "CAN LED Dimmer-eagle-import:CRY_ABMM-8.000MHZ-D-4-T")
-		(at 149.86 142.24 90)
+		(at 135.89 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14897,7 +15205,7 @@
 		(dnp no)
 		(uuid "9aa860f0-6654-4ff2-9bd7-eef9150d830d")
 		(property "Reference" "Y1"
-			(at 142.24 146.05 0)
+			(at 128.27 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14908,7 +15216,7 @@
 			)
 		)
 		(property "Value" "8MHz"
-			(at 144.78 146.05 0)
+			(at 130.81 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14919,7 +15227,7 @@
 			)
 		)
 		(property "Footprint" "CAN_LED_Dimmer-layout:OSCCC720X520X130N_7X5X1.3_Y1"
-			(at 149.86 142.24 0)
+			(at 135.89 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14930,7 +15238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 142.24 0)
+			(at 135.89 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14941,7 +15249,7 @@
 			)
 		)
 		(property "Description" "HCI 8MHz CL18pF ESR100ohm; LCSC C19674316; oscillator startup and frequency require prototype verification"
-			(at 149.86 142.24 0)
+			(at 135.89 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14952,7 +15260,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Abracon"
-			(at 149.86 146.812 0)
+			(at 135.89 146.812 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14963,7 +15271,7 @@
 			)
 		)
 		(property "MPN" "0175M4-8.000F18DTNJL"
-			(at 149.86 148.336 0)
+			(at 135.89 148.336 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14990,7 +15298,7 @@
 	)
 	(symbol
 		(lib_id "CAN LED Dimmer-eagle-import:GND")
-		(at 144.78 124.46 0)
+		(at 130.81 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15000,7 +15308,7 @@
 		(dnp no)
 		(uuid "9c64af9f-ef50-4793-9b58-313fb1d95922")
 		(property "Reference" "#SUPPLY56"
-			(at 144.78 124.46 0)
+			(at 130.81 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15011,7 +15319,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 127 0)
+			(at 130.81 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15022,7 +15330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 124.46 0)
+			(at 130.81 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15033,7 +15341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 124.46 0)
+			(at 130.81 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15044,7 +15352,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 124.46 0)
+			(at 130.81 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15055,7 +15363,7 @@
 			)
 		)
 		(property "CATEGORY" "Supply"
-			(at 144.78 130.048 0)
+			(at 130.81 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15850,7 +16158,7 @@
 	)
 	(symbol
 		(lib_id "CAN LED Dimmer-eagle-import:GND")
-		(at 127 144.78 0)
+		(at 113.03 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15860,7 +16168,7 @@
 		(dnp no)
 		(uuid "b1a5df25-66ac-43c5-879a-705f0830bd6d")
 		(property "Reference" "#SUPPLY15"
-			(at 127 144.78 0)
+			(at 113.03 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15871,7 +16179,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 147.32 0)
+			(at 113.03 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15882,7 +16190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 144.78 0)
+			(at 113.03 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15893,7 +16201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 144.78 0)
+			(at 113.03 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15904,7 +16212,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 144.78 0)
+			(at 113.03 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15915,7 +16223,7 @@
 			)
 		)
 		(property "CATEGORY" "Supply"
-			(at 127 150.368 0)
+			(at 113.03 150.368 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17402,7 +17710,7 @@
 	)
 	(symbol
 		(lib_id "CAN LED Dimmer-eagle-import:GND")
-		(at 162.56 134.62 0)
+		(at 148.59 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17412,7 +17720,7 @@
 		(dnp no)
 		(uuid "e571ce94-f619-4535-8ea6-9588ed01159c")
 		(property "Reference" "#SUPPLY52"
-			(at 162.56 134.62 0)
+			(at 148.59 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17423,7 +17731,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 137.16 0)
+			(at 148.59 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17434,7 +17742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 134.62 0)
+			(at 148.59 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17445,7 +17753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 134.62 0)
+			(at 148.59 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17456,7 +17764,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 134.62 0)
+			(at 148.59 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17467,7 +17775,7 @@
 			)
 		)
 		(property "CATEGORY" "Supply"
-			(at 162.56 140.208 0)
+			(at 148.59 140.208 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18176,7 +18484,7 @@
 	)
 	(symbol
 		(lib_id "CAN LED Dimmer-eagle-import:VCC")
-		(at 162.56 127 0)
+		(at 148.59 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18186,7 +18494,7 @@
 		(dnp no)
 		(uuid "f4b9dd7b-a1d6-467d-9df7-0071fad4f42a")
 		(property "Reference" "#SUPPLY51"
-			(at 162.56 127 0)
+			(at 148.59 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18197,7 +18505,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 162.56 121.92 0)
+			(at 148.59 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18208,7 +18516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 127 0)
+			(at 148.59 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18219,7 +18527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 127 0)
+			(at 148.59 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18230,7 +18538,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 127 0)
+			(at 148.59 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18241,7 +18549,7 @@
 			)
 		)
 		(property "CATEGORY" "Supply"
-			(at 162.56 130.048 0)
+			(at 148.59 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

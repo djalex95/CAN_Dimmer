@@ -56,7 +56,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CAN_LED_Dimmer_3.kicad_sch"
+		(property "Sheetfile" "LED Outputs.kicad_sch"
 			(at 190 107 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -101,7 +101,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CAN_LED_Dimmer_2.kicad_sch"
+		(property "Sheetfile" "Power Supply.kicad_sch"
 			(at 110 107 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -146,7 +146,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CAN_LED_Dimmer_MCU.kicad_sch"
+		(property "Sheetfile" "MCU - Bluetooth - CAN.kicad_sch"
 			(at 30 107 0)
 			(show_name no)
 			(do_not_autoplace no)
