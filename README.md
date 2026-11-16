@@ -1,47 +1,39 @@
 # CAN LED Dimmer
 
-Vierkanaliger LED-Dimmer mit CAN-Bus und Bluetooth LE, entwickelt in KiCad 10.
+KiCad-10-Projekt fuer einen vierkanaligen CAN-/Bluetooth-LED-Dimmer.
 
-## Eckdaten
+## Projekt oeffnen
 
-- 4 LED-KanÃ¤le mit je etwa 5 A, PWM 1 kHz (strombegrenzte LED-Streifen als Last angenommen)
-- Versorgung 12 V nominal, 24 V optional; zwei Eingangszweige mit je 10-A-Sicherung und TVS-Schutz
-- Steuerung: STM32G0B1CEU6 (UFQFPN48, 7 x 7 mm, 512 KB Flash) mit externem 8-MHz-Quarz
-- Kommunikation: CAN (TLT9251VLE, externe Terminierung) und Bluetooth LE (WÃ¼rth Proteus-IV 2621011024000)
-- High-Side-Schalter BTS70202 (je zwei KanÃ¤le) mit Stromdiagnose, P-Kanal-MOSFETs fÃ¼r die Lastzweige
-- Spannungsversorgung: LM5166X (5 V) und NCP730 (3,3 V)
-- 4 TastereingÃ¤nge (J5), EEPROM M24C04, Programmierung Ã¼ber Tag-Connect TC2030 (J1, J2)
-- Platine 100 Ã— 75 mm, 4 Lagen, 1,6 mm, nur Oberseite bestÃ¼ckt, vier Montagebohrungen Ã˜ 3,2 mm
+`CAN LED Dimmer.kicad_pro` oeffnen. Bibliotheken und 3D-Modelle sind projektlokal ueber `${KIPRJMOD}` eingebunden.
 
-## Aufbau des Projekts
+## Dateien
 
 | Datei / Ordner | Inhalt |
 |---|---|
-| `CAN LED Dimmer.kicad_pro` | Projektdatei, hier Ã¶ffnen |
-| `CAN LED Dimmer.kicad_sch` | Schaltplan-Ãœbersicht (hierarchisch) |
-| `CAN_LED_Dimmer_MCU.kicad_sch` | Blatt MCU, Bluetooth, CAN |
-| `CAN_LED_Dimmer_2.kicad_sch` | Blatt Spannungsversorgung |
-| `CAN_LED_Dimmer_3.kicad_sch` | Blatt LED-AusgÃ¤nge |
-| `CAN LED Dimmer.kicad_pcb` | Platinenlayout |
-| `CAN LED Dimmer-eagle-import.kicad_sym` | Symbolbibliothek (aus Eagle/Fusion importiert) |
-| `CAN_LED_Dimmer-layout.pretty` | angepasste Footprint-Varianten fÃ¼r dieses Layout |
-| `3dmodels/` | 3D-Modelle, Herkunft siehe `3dmodels/README-3D.md` |
+| CAN LED Dimmer.kicad_sch | Hauptblatt / Hierarchie |
+| MCU - Bluetooth - CAN.kicad_sch | Controller und Kommunikation |
+| Power Supply.kicad_sch | Spannungsversorgung |
+| LED Outputs.kicad_sch | Ausgangsstufen |
+| CAN LED Dimmer.kicad_pcb | Aktueller Layoutstand |
+| CAN LED Dimmer.kicad_dru | Benutzerdefinierte Designregeln |
+| CAN LED Dimmer-eagle-import.kicad_sym | Bauteilbibliothek, aus Import weiterentwickelt |
+| CAN_LED_Dimmer-MCU.kicad_sym | STM32C552RET6_GROUPED |
+| CAN_LED_Dimmer-layout.pretty | Projekt-Footprints |
+| 3dmodels | Modelle fuer Platine und Bibliotheks-Footprints |
+| sym-lib-table / fp-lib-table | Bibliothekszuordnungen |
 
-Alle Bibliotheken und 3D-Modelle liegen im Projekt und sind Ã¼ber `${KIPRJMOD}` eingebunden. Nach dem Klonen reicht eine KiCad-10-Installation, es mÃ¼ssen keine Bibliothekspfade angepasst werden.
+## Weiterbearbeitung
 
-## Ã–ffnen
+Zielcontroller: STM32C552RET6 im LQFP64. Bibliotheksaenderungen werden nicht automatisch in bereits platzierte Symbole und Footprints uebernommen. Aktualisierungen gezielt aus den Bibliotheken uebernehmen, danach Verbindungen sowie ERC/DRC pruefen.
 
-1. Repository klonen oder als ZIP herunterladen.
-2. In KiCad 10 die Datei `CAN LED Dimmer.kicad_pro` Ã¶ffnen.
+Das Projekt ist ein Arbeitsstand, keine Fertigungsfreigabe. Fruehere ERC-/DRC-Ergebnisse gelten nicht automatisch fuer aktuelle Aenderungen. Die Bereinigung hat weder Schaltung noch Layout geaendert.
 
-## Stand
+Vier LED-Kanaele, vorgesehen ca. 5 A je Kanal und 1 kHz PWM; Versorgung 12 V, optional 24 V. Transientenfestigkeit, thermische Belastung und Signalqualitaet am fertigen Entwurf verifizieren.
 
-Arbeitsstand, noch keine Fertigungsfreigabe:
+Der gemeinsame ACT45B/SRF0504-Footprint hat Kupferpads fuer beide Gehaeuse, aber Pastenfenster fuer TDK. Fuer automatische Bourns-Bestueckung ist die Pastenschablone anzupassen. Die Bauteile sind elektrisch nicht identisch.
 
-- Layout vollstÃ¤ndig geroutet, DRC zuletzt ohne Fehler und offene Verbindungen; bekannte Bibliotheks- und Silkscreen-Warnungen sind noch offen.
-- ERC hat noch offene Meldungen, vor allem durch importierte Pin-Typen.
-- Strombelastbarkeit, Thermik bei viermal 5 A und Schaltflanken sind am Prototyp zu prÃ¼fen.
-- Lagenaufbau und Kupferdicke sind mit dem Hersteller festzulegen.
-- Eingangsschutz fÃ¼r 24 V und Transienten ist bewusst zurÃ¼ckgestellt.
+## Sicherungen
 
-Historische Reviews, Zwischenstände und unbenutzte Importdateien wurden separat außerhalb des Projektordners archiviert. Die aktive Footprint-Bibliothek ist `CAN_LED_Dimmer-layout.pretty`.
+Git-Historie bleibt in `.git` erhalten. Alte lokale Dateihistorie, manuelle Sicherungen und veraltete Berichte liegen ausserhalb des Projekts unter `../KiCadProject-Archiv/`. Neue KiCad-Sicherungen weiterhin verwenden; sie wurden nicht deaktiviert.
+
+Lokale Benutzereinstellungen (`*.kicad_prl`) bleiben erhalten und werden von Git ignoriert.

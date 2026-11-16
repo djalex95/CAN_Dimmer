@@ -8,3 +8,7 @@ _autosave-*
 *-cache.lib
 *.bak
 *.kicad_prl
+
+# Local backup and generated DRC reports
+_backup_vor_ki_aenderung/
+*_drc_violations.json
