@@ -813,7 +813,7 @@
         "uuid": "a168f1dc-c10d-4e08-bf2f-acc100395e2c"
       }
     ],
-    "used_designators": "U3",
+    "used_designators": "U3,R45,#SUPPLY72-82,C20-24,L2",
     "variants": []
   },
   "sheets": [

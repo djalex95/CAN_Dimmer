@@ -4,15 +4,15 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "8-SON (DFN), 0.50 mm pitch, 2.00 X 3.00 X 0.60  mm body, 1.40 X 1.40 mm thermal pad\n\n8-pin SON (DFN) package with 0.50mm pitch,  with body size 2.00 X 3.00 X 0.60 mm and thermal pad size 1.40 X 1.40 mm")
-	(property "Reference" "U1"
-		(at -2 -2 0)
+	(property "Reference" "U"
+		(at 0 -2.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "7c8c2501-8bde-4180-92ac-b0a6e7065259")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify bottom)
 		)
@@ -55,117 +55,25 @@
 			)
 		)
 	)
-	(sheetname "MCU - Bluetooth - CAN")
-	(sheetfile "CAN_LED_Dimmer_MCU.kicad_sch")
+	
+	
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_line
-		(start -1.55 -1.2008)
-		(end 1.55 -1.2008)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "43306a21-3ed1-4b30-b0f5-71e865ea3051")
-	)
-	(fp_line
-		(start -1.026581 1.2008)
-		(end 1.55 1.2008)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "c7255553-bd52-4b39-82c2-fd86e78795ce")
-	)
-	(fp_circle
-		(center -2.054 -1.3908)
-		(end -1.834 -1.3908)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "fce614e4-e298-40e7-b419-4f26dc155ac1")
-	)
-	(fp_line
-		(start -1.55 -1.2008)
-		(end 1.55 -1.2008)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "d645c2f6-d780-4cb0-8762-3b880903cf13")
-	)
-	(fp_line
-		(start -1.55 -1.05)
-		(end 1.55 -1.05)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "67d466d5-bfd8-4d83-adc0-857b36a9be0b")
-	)
-	(fp_line
-		(start -1.55 1.05)
-		(end -1.55 -1.05)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "649568bd-b933-4f35-9919-9b4e2ea74497")
-	)
-	(fp_line
-		(start -1.55 1.2008)
-		(end 1.55 1.2008)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "c73f0e64-f2f4-46ce-81dc-f86458123d45")
-	)
-	(fp_line
-		(start 1.55 -1.05)
-		(end 1.55 1.05)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a57e865c-ceda-4312-b0ac-1d04cbdf65e7")
-	)
-	(fp_line
-		(start 1.55 1.05)
-		(end -1.55 1.05)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "1ded5e69-dd86-43b7-beaf-74428371d80e")
-	)
-	(fp_circle
-		(center -2.054 -1.3908)
-		(end -1.929 -1.3908)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Fab")
-		(uuid "7af44fbf-1910-4a69-bc8c-277afd08960b")
-	)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	(pad "1" smd roundrect
 		(at -1.4348 -0.75)
 		(size 0.8619 0.2736)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.5)
-		(solder_mask_margin 0.1016)
+		(solder_mask_margin 0.025)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
 		(uuid "507a749e-8f59-4192-bf30-1f81ea58c1bc")
@@ -175,7 +83,7 @@
 		(size 0.8619 0.2736)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.5)
-		(solder_mask_margin 0.1016)
+		(solder_mask_margin 0.025)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
 		(uuid "33a680f4-d866-46e4-b58a-3cfabca7a96e")
@@ -185,7 +93,7 @@
 		(size 0.8619 0.2736)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.5)
-		(solder_mask_margin 0.1016)
+		(solder_mask_margin 0.025)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
 		(uuid "0470f0f5-6259-40b5-bbe8-052d0a34336d")
@@ -195,7 +103,7 @@
 		(size 0.8619 0.2736)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.5)
-		(solder_mask_margin 0.1016)
+		(solder_mask_margin 0.025)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
 		(uuid "a5a6706e-d57d-46b0-83e5-d8542d98a1c1")
@@ -205,7 +113,7 @@
 		(size 0.8619 0.2736)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.5)
-		(solder_mask_margin 0.1016)
+		(solder_mask_margin 0.025)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
 		(uuid "9bbdede9-4cd5-4f6e-9936-7730eb10010b")
@@ -215,7 +123,7 @@
 		(size 0.8619 0.2736)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.5)
-		(solder_mask_margin 0.1016)
+		(solder_mask_margin 0.025)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
 		(uuid "c41736cc-3c3c-4b92-a708-2fd9290dddf9")
@@ -225,7 +133,7 @@
 		(size 0.8619 0.2736)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.5)
-		(solder_mask_margin 0.1016)
+		(solder_mask_margin 0.025)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
 		(uuid "05e867a4-ea61-4330-b488-0d58cc9fce41")
@@ -235,7 +143,7 @@
 		(size 0.8619 0.2736)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.5)
-		(solder_mask_margin 0.1016)
+		(solder_mask_margin 0.025)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
 		(uuid "b3f17664-caee-404a-8846-ebcc9969bc35")
@@ -243,8 +151,8 @@
 	(pad "9" smd rect
 		(at 0 0)
 		(size 1.4 1.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.1016)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.025)
 		(solder_paste_margin 0)
 		(zone_connect 2)
 		(thermal_bridge_angle 0)
@@ -262,15 +170,20 @@
 			(xyz 0 0 0)
 		)
 	)
-	(fp_rect
-		(start -2.05 -1.25)
-		(end 2.05 1.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "7e4cbc70-481c-4850-98e8-7ec36eb03177")
-	)
+	
+
+(attr smd)
+(pad "" smd rect (at -0.35 -0.35) (size 0.6 0.6) (layers "F.Paste"))
+(pad "" smd rect (at -0.35 0.35) (size 0.6 0.6) (layers "F.Paste"))
+(pad "" smd rect (at 0.35 -0.35) (size 0.6 0.6) (layers "F.Paste"))
+(pad "" smd rect (at 0.35 0.35) (size 0.6 0.6) (layers "F.Paste"))
+(fp_rect (start -2.15 -1.3) (end 2.15 1.3) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd"))
+(fp_line (start -1.2 -1) (end 1.5 -1) (stroke (width 0.1) (type default)) (layer "F.Fab"))
+(fp_line (start 1.5 -1) (end 1.5 1) (stroke (width 0.1) (type default)) (layer "F.Fab"))
+(fp_line (start 1.5 1) (end -1.5 1) (stroke (width 0.1) (type default)) (layer "F.Fab"))
+(fp_line (start -1.5 1) (end -1.5 -0.7) (stroke (width 0.1) (type default)) (layer "F.Fab"))
+(fp_line (start -1.5 -0.7) (end -1.2 -1) (stroke (width 0.1) (type default)) (layer "F.Fab"))
+(fp_line (start -1.5 -1.2) (end 1.5 -1.2) (stroke (width 0.15) (type default)) (layer "F.SilkS"))
+(fp_line (start -1.5 1.2) (end 1.5 1.2) (stroke (width 0.15) (type default)) (layer "F.SilkS"))
+(fp_circle (center -2.2 -1.2) (end -2.05 -1.2) (stroke (width 0.15) (type default)) (fill none) (layer "F.SilkS"))
 )

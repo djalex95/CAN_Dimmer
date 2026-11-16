@@ -6090,7 +6090,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "1µF"
 			(at 248.92 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8212,7 +8212,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "1µF"
 			(at 195.58 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
