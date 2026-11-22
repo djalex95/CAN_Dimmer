@@ -409,7 +409,7 @@
 	(footprint "CAN_LED_Dimmer-layout:LED_0603_1608Metric_D18"
 		(layer "F.Cu")
 		(uuid "03de0f77-141e-43f1-bb6e-274dae3644ec")
-		(at 138.6661 115.7986)
+		(at 136.4011 64.3536)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D18"
@@ -3915,10 +3915,10 @@
 	(footprint "CAN_LED_Dimmer-layout:RESC1608X60_R41"
 		(layer "F.Cu")
 		(uuid "2325c8f1-112c-4e7f-a335-3985e857be68")
-		(at 134.91565 115.8636)
+		(at 140 64.3036 180)
 		(descr "Chip, 1.60 X 0.82 X 0.60 mm body\n\nChip package with body size 1.60 X 0.82 X 0.60 mm")
 		(property "Reference" "R41"
-			(at 2 -2 270)
+			(at 2 -2 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "66025444-dbc9-43e5-a408-c5eaed63ddbf")
@@ -3931,7 +3931,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.4359 0)
+			(at 0 1.4359 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3945,7 +3945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3957,7 +3957,7 @@
 			)
 		)
 		(property "Description" "PWM indicator at 3.3V; 1k 0603; LCSC C22548"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3969,7 +3969,7 @@
 			)
 		)
 		(property "Power_Rating" "0.1 W"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3982,7 +3982,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3995,7 +3995,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4019,16 +4019,6 @@
 		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.85 -0.8)
-			(end 0.85 -0.8)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "0bb5b920-0be6-4a26-aafb-5629b96985aa")
-		)
-		(fp_line
 			(start -0.85 0.8)
 			(end 0.85 0.8)
 			(stroke
@@ -4037,6 +4027,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "4c1b5845-e384-4d94-b24d-53c7ef35764b")
+		)
+		(fp_line
+			(start -0.85 -0.8)
+			(end 0.85 -0.8)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0bb5b920-0be6-4a26-aafb-5629b96985aa")
 		)
 		(fp_rect
 			(start -1.4 -0.65)
@@ -4050,44 +4050,14 @@
 			(uuid "c68448e9-8079-40e5-bcd2-d7c0dec30879")
 		)
 		(fp_line
-			(start -0.85 -0.475)
-			(end 0.85 -0.475)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0473e5a6-ba7e-4bab-88b1-fa80b1e60181")
-		)
-		(fp_line
-			(start -0.85 0.475)
-			(end -0.85 -0.475)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ad60538e-d8ce-4135-9e84-2f994e983af0")
-		)
-		(fp_line
-			(start 0.85 -0.5469)
-			(end -0.85 -0.5469)
+			(start 0.85 0.5469)
+			(end -0.85 0.5469)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9b634325-b0a6-432a-ac34-a4c92dcda755")
-		)
-		(fp_line
-			(start 0.85 -0.475)
-			(end 0.85 0.475)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0f09cf10-2c7c-4bbb-9593-04fab7d6551e")
+			(uuid "d076c7cb-3ca3-48fd-bd37-10ab45eff04d")
 		)
 		(fp_line
 			(start 0.85 0.475)
@@ -4100,17 +4070,47 @@
 			(uuid "1d1af6a6-83c7-4ef9-bc1f-bc708034ab19")
 		)
 		(fp_line
-			(start 0.85 0.5469)
-			(end -0.85 0.5469)
+			(start 0.85 -0.475)
+			(end 0.85 0.475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0f09cf10-2c7c-4bbb-9593-04fab7d6551e")
+		)
+		(fp_line
+			(start 0.85 -0.5469)
+			(end -0.85 -0.5469)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d076c7cb-3ca3-48fd-bd37-10ab45eff04d")
+			(uuid "9b634325-b0a6-432a-ac34-a4c92dcda755")
+		)
+		(fp_line
+			(start -0.85 0.475)
+			(end -0.85 -0.475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ad60538e-d8ce-4135-9e84-2f994e983af0")
+		)
+		(fp_line
+			(start -0.85 -0.475)
+			(end 0.85 -0.475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0473e5a6-ba7e-4bab-88b1-fa80b1e60181")
 		)
 		(pad "1" smd rect
-			(at -0.8152 0)
+			(at -0.8152 0 180)
 			(size 0.7987 0.9739)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "PWM_0")
@@ -4121,7 +4121,7 @@
 			(uuid "f1106906-1685-4aba-828a-dbca652f66f9")
 		)
 		(pad "2" smd rect
-			(at 0.8152 0)
+			(at 0.8152 0 180)
 			(size 0.7987 0.9739)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/LED Outputs/LED_IND_1")
@@ -7071,10 +7071,10 @@
 	(footprint "CAN_LED_Dimmer-layout:RESC1608X60_R44"
 		(layer "F.Cu")
 		(uuid "3f759d58-798e-4622-933c-1d573247a37c")
-		(at 134.91565 124.0236)
+		(at 140.0511 114.7536 180)
 		(descr "Chip, 1.60 X 0.82 X 0.60 mm body\n\nChip package with body size 1.60 X 0.82 X 0.60 mm")
 		(property "Reference" "R44"
-			(at 2 -2 270)
+			(at 2 -2 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "592f3af0-2fef-4737-9a49-1a28767e7772")
@@ -7087,7 +7087,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.4359 0)
+			(at 0 1.4359 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7101,7 +7101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7113,7 +7113,7 @@
 			)
 		)
 		(property "Description" "PWM indicator at 3.3V; 1k 0603; LCSC C22548"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7125,7 +7125,7 @@
 			)
 		)
 		(property "Power_Rating" "0.1 W"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7138,7 +7138,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7151,7 +7151,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7175,16 +7175,6 @@
 		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.85 -0.8)
-			(end 0.85 -0.8)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "d325277c-444d-4ee8-af80-c153039f0694")
-		)
-		(fp_line
 			(start -0.85 0.8)
 			(end 0.85 0.8)
 			(stroke
@@ -7193,6 +7183,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "2867e678-dbc8-495f-97bc-6c5334f026d8")
+		)
+		(fp_line
+			(start -0.85 -0.8)
+			(end 0.85 -0.8)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d325277c-444d-4ee8-af80-c153039f0694")
 		)
 		(fp_rect
 			(start -1.4 -0.65)
@@ -7206,44 +7206,14 @@
 			(uuid "81a340fe-51da-4d1f-9489-6b5619e809c0")
 		)
 		(fp_line
-			(start -0.85 -0.475)
-			(end 0.85 -0.475)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "56daadc0-d24f-4071-9d95-af0d3c2ad186")
-		)
-		(fp_line
-			(start -0.85 0.475)
-			(end -0.85 -0.475)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "436c4075-f6a8-4468-88f9-44bbf24a0977")
-		)
-		(fp_line
-			(start 0.85 -0.5469)
-			(end -0.85 -0.5469)
+			(start 0.85 0.5469)
+			(end -0.85 0.5469)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dd3b3cae-4580-41ae-a543-7e84ae0155e0")
-		)
-		(fp_line
-			(start 0.85 -0.475)
-			(end 0.85 0.475)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "657269da-65a6-493f-a9af-bc9c04231232")
+			(uuid "d734d6d8-b0ae-419d-83ca-078710192a14")
 		)
 		(fp_line
 			(start 0.85 0.475)
@@ -7256,17 +7226,47 @@
 			(uuid "c12016fe-3f50-4cbb-a3bb-25de8e366f1d")
 		)
 		(fp_line
-			(start 0.85 0.5469)
-			(end -0.85 0.5469)
+			(start 0.85 -0.475)
+			(end 0.85 0.475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "657269da-65a6-493f-a9af-bc9c04231232")
+		)
+		(fp_line
+			(start 0.85 -0.5469)
+			(end -0.85 -0.5469)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d734d6d8-b0ae-419d-83ca-078710192a14")
+			(uuid "dd3b3cae-4580-41ae-a543-7e84ae0155e0")
+		)
+		(fp_line
+			(start -0.85 0.475)
+			(end -0.85 -0.475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "436c4075-f6a8-4468-88f9-44bbf24a0977")
+		)
+		(fp_line
+			(start -0.85 -0.475)
+			(end 0.85 -0.475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "56daadc0-d24f-4071-9d95-af0d3c2ad186")
 		)
 		(pad "1" smd rect
-			(at -0.8152 0)
+			(at -0.8152 0 180)
 			(size 0.7987 0.9739)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "PWM_3")
@@ -7277,7 +7277,7 @@
 			(uuid "10b69a60-7556-46b9-92a2-6bce6b3e1981")
 		)
 		(pad "2" smd rect
-			(at 0.8152 0)
+			(at 0.8152 0 180)
 			(size 0.7987 0.9739)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/LED Outputs/LED_IND_4")
@@ -24551,10 +24551,10 @@
 	(footprint "CAN_LED_Dimmer-layout:RESC1608X60_R42"
 		(layer "F.Cu")
 		(uuid "c6862e14-6ba4-4105-a435-f38b9e294011")
-		(at 134.91565 118.5836)
+		(at 140 84.7536 180)
 		(descr "Chip, 1.60 X 0.82 X 0.60 mm body\n\nChip package with body size 1.60 X 0.82 X 0.60 mm")
 		(property "Reference" "R42"
-			(at 2 -2 270)
+			(at 2 -2 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fa02134f-22c1-45c3-aaf2-4de5529470a0")
@@ -24567,7 +24567,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.4359 0)
+			(at 0 1.4359 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24581,7 +24581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24593,7 +24593,7 @@
 			)
 		)
 		(property "Description" "PWM indicator at 3.3V; 1k 0603; LCSC C22548"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24605,7 +24605,7 @@
 			)
 		)
 		(property "Power_Rating" "0.1 W"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24618,7 +24618,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24631,7 +24631,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24655,16 +24655,6 @@
 		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.85 -0.8)
-			(end 0.85 -0.8)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "d4e920a5-a0db-45ab-b483-3aba21c6e42b")
-		)
-		(fp_line
 			(start -0.85 0.8)
 			(end 0.85 0.8)
 			(stroke
@@ -24673,6 +24663,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "55757b97-23cf-4ce6-8481-4ec516c6c290")
+		)
+		(fp_line
+			(start -0.85 -0.8)
+			(end 0.85 -0.8)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d4e920a5-a0db-45ab-b483-3aba21c6e42b")
 		)
 		(fp_rect
 			(start -1.4 -0.65)
@@ -24686,44 +24686,14 @@
 			(uuid "57fe868f-dc22-49bf-bf83-4505109f42fa")
 		)
 		(fp_line
-			(start -0.85 -0.475)
-			(end 0.85 -0.475)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "fbb0bf83-80a2-45e1-99ce-45af0deac984")
-		)
-		(fp_line
-			(start -0.85 0.475)
-			(end -0.85 -0.475)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0bdc35f5-e47e-4ac2-a5f6-ffa9f98588d0")
-		)
-		(fp_line
-			(start 0.85 -0.5469)
-			(end -0.85 -0.5469)
+			(start 0.85 0.5469)
+			(end -0.85 0.5469)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "68f9a468-cea4-4427-91a2-6269cfe652ae")
-		)
-		(fp_line
-			(start 0.85 -0.475)
-			(end 0.85 0.475)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e5cea42b-d72a-42ea-a4b6-da01d1664fa2")
+			(uuid "39f48f3e-eb3d-4354-ac79-b3c0fd63f062")
 		)
 		(fp_line
 			(start 0.85 0.475)
@@ -24736,17 +24706,47 @@
 			(uuid "273c8956-0a5f-4ed5-9e37-a99ab2516e18")
 		)
 		(fp_line
-			(start 0.85 0.5469)
-			(end -0.85 0.5469)
+			(start 0.85 -0.475)
+			(end 0.85 0.475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e5cea42b-d72a-42ea-a4b6-da01d1664fa2")
+		)
+		(fp_line
+			(start 0.85 -0.5469)
+			(end -0.85 -0.5469)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "39f48f3e-eb3d-4354-ac79-b3c0fd63f062")
+			(uuid "68f9a468-cea4-4427-91a2-6269cfe652ae")
+		)
+		(fp_line
+			(start -0.85 0.475)
+			(end -0.85 -0.475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0bdc35f5-e47e-4ac2-a5f6-ffa9f98588d0")
+		)
+		(fp_line
+			(start -0.85 -0.475)
+			(end 0.85 -0.475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fbb0bf83-80a2-45e1-99ce-45af0deac984")
 		)
 		(pad "1" smd rect
-			(at -0.8152 0)
+			(at -0.8152 0 180)
 			(size 0.7987 0.9739)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "PWM_1")
@@ -24757,7 +24757,7 @@
 			(uuid "e6d292eb-a350-4528-8aea-ec964adf8456")
 		)
 		(pad "2" smd rect
-			(at 0.8152 0)
+			(at 0.8152 0 180)
 			(size 0.7987 0.9739)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/LED Outputs/LED_IND_2")
@@ -28163,10 +28163,10 @@
 	(footprint "CAN_LED_Dimmer-layout:RESC1608X60_R43"
 		(layer "F.Cu")
 		(uuid "d7bcd0af-e5ab-4ed5-8807-46bc4ff4e675")
-		(at 134.91565 121.3036)
+		(at 140.0011 94.4036 180)
 		(descr "Chip, 1.60 X 0.82 X 0.60 mm body\n\nChip package with body size 1.60 X 0.82 X 0.60 mm")
 		(property "Reference" "R43"
-			(at 2 -2 270)
+			(at 2 -2 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a2b05628-cc6d-41e9-beb0-f127631c5ff4")
@@ -28179,7 +28179,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.4359 0)
+			(at 0 1.4359 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28193,7 +28193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28205,7 +28205,7 @@
 			)
 		)
 		(property "Description" "PWM indicator at 3.3V; 1k 0603; LCSC C22548"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28217,7 +28217,7 @@
 			)
 		)
 		(property "Power_Rating" "0.1 W"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28230,7 +28230,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28243,7 +28243,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28267,16 +28267,6 @@
 		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.85 -0.8)
-			(end 0.85 -0.8)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "c7c2d627-7752-4863-b7a2-14eada00341a")
-		)
-		(fp_line
 			(start -0.85 0.8)
 			(end 0.85 0.8)
 			(stroke
@@ -28285,6 +28275,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "3c8932ef-1fae-4724-b628-5c5506c6104e")
+		)
+		(fp_line
+			(start -0.85 -0.8)
+			(end 0.85 -0.8)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c7c2d627-7752-4863-b7a2-14eada00341a")
 		)
 		(fp_rect
 			(start -1.4 -0.65)
@@ -28298,44 +28298,14 @@
 			(uuid "0e276c18-afd8-4da4-a8ea-8bc98e99f2d3")
 		)
 		(fp_line
-			(start -0.85 -0.475)
-			(end 0.85 -0.475)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4b2f2754-9ca6-4e0b-b230-5d460e0543ea")
-		)
-		(fp_line
-			(start -0.85 0.475)
-			(end -0.85 -0.475)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "99bc6423-3363-4914-a184-2649f6c2ecc2")
-		)
-		(fp_line
-			(start 0.85 -0.5469)
-			(end -0.85 -0.5469)
+			(start 0.85 0.5469)
+			(end -0.85 0.5469)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "739f91f4-923d-4ce5-b300-1f0b197a09b5")
-		)
-		(fp_line
-			(start 0.85 -0.475)
-			(end 0.85 0.475)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "debe2b88-93aa-4cc7-8d0e-301323d7a5a2")
+			(uuid "b0a5a432-7ac4-43a3-9a46-b2d2fbeb4a79")
 		)
 		(fp_line
 			(start 0.85 0.475)
@@ -28348,17 +28318,47 @@
 			(uuid "b3e066aa-0d9c-4389-834c-92f5ae9add1a")
 		)
 		(fp_line
-			(start 0.85 0.5469)
-			(end -0.85 0.5469)
+			(start 0.85 -0.475)
+			(end 0.85 0.475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "debe2b88-93aa-4cc7-8d0e-301323d7a5a2")
+		)
+		(fp_line
+			(start 0.85 -0.5469)
+			(end -0.85 -0.5469)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b0a5a432-7ac4-43a3-9a46-b2d2fbeb4a79")
+			(uuid "739f91f4-923d-4ce5-b300-1f0b197a09b5")
+		)
+		(fp_line
+			(start -0.85 0.475)
+			(end -0.85 -0.475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "99bc6423-3363-4914-a184-2649f6c2ecc2")
+		)
+		(fp_line
+			(start -0.85 -0.475)
+			(end 0.85 -0.475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4b2f2754-9ca6-4e0b-b230-5d460e0543ea")
 		)
 		(pad "1" smd rect
-			(at -0.8152 0)
+			(at -0.8152 0 180)
 			(size 0.7987 0.9739)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "PWM_2")
@@ -28369,7 +28369,7 @@
 			(uuid "272643ed-83cb-49e5-8b08-cb8b9bffb1a5")
 		)
 		(pad "2" smd rect
-			(at 0.8152 0)
+			(at 0.8152 0 180)
 			(size 0.7987 0.9739)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/LED Outputs/LED_IND_3")
@@ -30961,7 +30961,7 @@
 	(footprint "CAN_LED_Dimmer-layout:LED_0603_1608Metric_D19"
 		(layer "F.Cu")
 		(uuid "e5b5be30-16a7-409a-91d9-860a0ac2f6ad")
-		(at 138.6661 118.3886)
+		(at 136.9011 84.8036)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D19"
@@ -32796,7 +32796,7 @@
 	(footprint "CAN_LED_Dimmer-layout:LED_0603_1608Metric_D20"
 		(layer "F.Cu")
 		(uuid "ec78d555-b026-4ec9-a148-67498d5888db")
-		(at 138.6661 120.9786)
+		(at 136.8011 94.4536)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D20"
@@ -33292,7 +33292,7 @@
 	(footprint "CAN_LED_Dimmer-layout:SOT95P237X110-3N_Q5"
 		(layer "F.Cu")
 		(uuid "efb0e320-c2b9-4380-9eb0-158f5c5a9df7")
-		(at 136 82 180)
+		(at 136.2511 82.249899 180)
 		(descr "3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.92 X 1.30 X 1.10 mm body\n\n3-pin SOT23 package with 0.95 mm pitch, 2.37 mm span with body size 2.92 X 1.30 X 1.10 mm")
 		(property "Reference" "Q5"
 			(at 0 -2 0)
@@ -33589,7 +33589,7 @@
 	(footprint "CAN_LED_Dimmer-layout:LED_0603_1608Metric_D21"
 		(layer "F.Cu")
 		(uuid "f17636b8-8d49-4687-9e46-81994a7b3798")
-		(at 138.6661 123.5686)
+		(at 136.7511 114.7536)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D21"
@@ -36050,7 +36050,7 @@
 		(uuid "ba0fae41-e3bf-4f05-88ff-ae85f5ddc6a8")
 	)
 	(via
-		(at 142 63)
+		(at 142.176299 62.823701)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -39958,20 +39958,12 @@
 		(uuid "e47d318a-9316-48d7-badf-f9f8710cd0c8")
 	)
 	(segment
-		(start 147.4511 117.75)
-		(end 147.5511 117.75)
+		(start 143.1011 114.5652)
+		(end 143.4627 114.5652)
 		(width 0.15)
 		(layer "F.Cu")
 		(net "PWM_3")
-		(uuid "00d62b23-f859-4a0f-8929-53a9ef685afe")
-	)
-	(segment
-		(start 147.5511 117.75)
-		(end 147.6011 117.7)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "PWM_3")
-		(uuid "109533a3-6172-4113-a389-0fd68e122148")
+		(uuid "22157783-ee6d-4209-86c3-5c18317ad5d7")
 	)
 	(segment
 		(start 140.9 113)
@@ -39982,36 +39974,12 @@
 		(uuid "373a7a9c-3981-4441-b885-71a067cdd29b")
 	)
 	(segment
-		(start 148.2511 117.65)
+		(start 145.9975 117.1)
 		(end 148.8011 117.1)
 		(width 0.15)
 		(layer "F.Cu")
 		(net "PWM_3")
-		(uuid "607ccd6d-77b4-4f50-bc3d-487c5743c9d1")
-	)
-	(segment
-		(start 143.1011 114.5652)
-		(end 143.1011 114.55)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "PWM_3")
-		(uuid "78a675f8-00dd-4a34-9dc7-7405afa3e843")
-	)
-	(segment
-		(start 147.6011 117.7)
-		(end 147.7511 117.7)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "PWM_3")
-		(uuid "8d8f1faf-99f6-4657-bb5a-8a88a7fbfa94")
-	)
-	(segment
-		(start 147.8011 117.65)
-		(end 148.2511 117.65)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "PWM_3")
-		(uuid "ab24cf1d-2a13-48a4-8237-2ff7361e6b0c")
+		(uuid "4e50a99e-a56e-4bc0-a056-de5733b90118")
 	)
 	(segment
 		(start 143 112.8)
@@ -40022,22 +39990,6 @@
 		(uuid "ac6dfef5-cdf7-4803-8bc1-c66835458964")
 	)
 	(segment
-		(start 143.1011 114.55)
-		(end 146.3511 117.8)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "PWM_3")
-		(uuid "b9669bec-1ab1-4418-8c0c-b5a433e88ed2")
-	)
-	(segment
-		(start 147.7511 117.7)
-		(end 147.8011 117.65)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "PWM_3")
-		(uuid "c4a3c33d-718a-4cb6-bb15-9f2c29428ecb")
-	)
-	(segment
 		(start 142.8 113)
 		(end 140.9 113)
 		(width 0.15)
@@ -40046,20 +39998,12 @@
 		(uuid "c804366a-b61a-41c9-aef5-d3026696d1a4")
 	)
 	(segment
-		(start 147.4011 117.8)
-		(end 147.4511 117.75)
+		(start 143.4627 114.5652)
+		(end 145.9975 117.1)
 		(width 0.15)
 		(layer "F.Cu")
 		(net "PWM_3")
-		(uuid "d16e6c92-7ac5-4441-a3b5-3658aa9861ad")
-	)
-	(segment
-		(start 146.3511 117.8)
-		(end 147.4011 117.8)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "PWM_3")
-		(uuid "e8a786e5-79f8-44e0-865c-678b92f8a3e9")
+		(uuid "ce0bc6a0-1e4d-4459-8f23-1f3d5961ac93")
 	)
 	(via
 		(at 157.1011 122.75)
@@ -42846,12 +42790,12 @@
 		(uuid "b5c9a422-4f0e-4b56-ad5f-d4ef44815be7")
 	)
 	(segment
-		(start 144.1139 66.9164)
-		(end 140.75 63.5525)
+		(start 145.3639 66.9164)
+		(end 140.75 62.3025)
 		(width 0.18)
 		(layer "F.Cu")
 		(net "/MCU - Bluetooth - CAN/BLE_LED1")
-		(uuid "1ff60df0-5150-47c7-b85e-0a3065d662c7")
+		(uuid "051be6a9-83d1-4794-beda-b55b06efc32e")
 	)
 	(segment
 		(start 160.916261 60.018256)
@@ -42868,22 +42812,6 @@
 		(layer "F.Cu")
 		(net "/MCU - Bluetooth - CAN/BLE_LED1")
 		(uuid "376d7152-f8b1-4df1-aa6b-813104bb11ad")
-	)
-	(segment
-		(start 140.75 63.5525)
-		(end 140.75 60)
-		(width 0.18)
-		(layer "F.Cu")
-		(net "/MCU - Bluetooth - CAN/BLE_LED1")
-		(uuid "408bd5c2-fe2c-4d65-8956-156bf8c45b80")
-	)
-	(segment
-		(start 159.4139 66.9164)
-		(end 144.1139 66.9164)
-		(width 0.18)
-		(layer "F.Cu")
-		(net "/MCU - Bluetooth - CAN/BLE_LED1")
-		(uuid "41951ae7-30fa-4bf2-ae28-324fda31e84c")
 	)
 	(segment
 		(start 160.1511 59.3024)
@@ -42910,6 +42838,14 @@
 		(uuid "917a5bfa-40ae-414e-ad07-48437e9d2d2c")
 	)
 	(segment
+		(start 159.4139 66.9164)
+		(end 145.3639 66.9164)
+		(width 0.18)
+		(layer "F.Cu")
+		(net "/MCU - Bluetooth - CAN/BLE_LED1")
+		(uuid "b000e90a-7651-426b-8db2-0ded6eeefd74")
+	)
+	(segment
 		(start 160.1505 59.30245)
 		(end 160.1505 59.3018)
 		(width 0.15)
@@ -42924,6 +42860,14 @@
 		(layer "F.Cu")
 		(net "/MCU - Bluetooth - CAN/BLE_LED1")
 		(uuid "c4289faa-1ad6-42ae-88e3-257ab6a3551d")
+	)
+	(segment
+		(start 140.75 62.3025)
+		(end 140.75 60)
+		(width 0.18)
+		(layer "F.Cu")
+		(net "/MCU - Bluetooth - CAN/BLE_LED1")
+		(uuid "ceb63535-6cef-4b30-a4c5-c4876cdfae9c")
 	)
 	(segment
 		(start 160.15 59.30065)
